@@ -1,0 +1,3 @@
+# Python dependencies for Netlify
+markdown==3.9
+requests==2.32.4

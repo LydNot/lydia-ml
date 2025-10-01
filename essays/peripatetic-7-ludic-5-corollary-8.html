@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"peripatetic: 7; ludic: 5; corollary: 8" - Lydia ML</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        .essay-content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .essay-header {
+            margin-bottom: 40px;
+        }
+        
+        .essay-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        
+        .essay-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+        
+        .essay-body {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #333;
+        }
+        
+        .essay-body h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin: 40px 0 20px 0;
+        }
+        
+        .essay-body h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #1a1a1a;
+            margin: 30px 0 15px 0;
+        }
+        
+        .essay-body p {
+            margin-bottom: 20px;
+        }
+        
+        .essay-body ul, .essay-body ol {
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+        
+        .essay-body li {
+            margin-bottom: 8px;
+        }
+        
+        .essay-body blockquote {
+            border-left: 3px solid #e6e6e6;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .essay-body code {
+            background-color: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.9em;
+        }
+        
+        .essay-body pre {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        
+        .essay-body pre code {
+            background: none;
+            padding: 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #666;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .back-link:hover {
+            color: #1a1a1a;
+        }
+        
+        @media (max-width: 768px) {
+            .essay-content {
+                padding: 20px 15px;
+            }
+            
+            .essay-title {
+                font-size: 1.8rem;
+            }
+            
+            .essay-body {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="essay-content">
+        <a href="../index.html" class="back-link">← Back to home</a>
+        
+        <div class="essay-header">
+            <h1 class="essay-title">"peripatetic: 7; ludic: 5; corollary: 8"</h1>
+            <div class="essay-meta">"April 30, 2025" • 1 min read</div>
+        </div>
+        
+        <div class="essay-body">
+            <p>I’ve been maintaining a list of all the new words I encounter for the past five years.</p>
+<p>The issue is that I don’t remember all the words perfectly, so I’m sure there are some duplicates. But the document is over 100 pages long.</p>
+<p>I’d like to track/clean/count/remove duplicates. It was surprisingly easy to write a script for this!</p>
+<p>When I first conceived of this script, I supposed I’d have to implement some convoluted logic—appending words to a list, cross-checking whether each new word is already on the list, and only appending it if that’s not the case.</p>
+<p>But there’s actually a far simpler way! Sets don’t include duplicates, whereas lists do. So I was able to just create a set() and let that take care of collecting unique words.</p>
+<p>27% of my words were duplicates. The most common:</p>
+<p>These are the words I encountered most frequently and initially struggled to retain. Some of them seem funny now—they include words I use ~frequently (corollary, vignette, litany) and some of my favorite words (dichotomy, ludic, peripatetic)!</p>
+<p>I always had the sense that Python was supposed to be an everyday/scripting language, but I’ve been underexploiting that modality. It’s pretty cool! I’m pleasantly surprised Google’s APIs are so easy to use, as well.</p>
+<p>I hope to write more scripts and share them here.</p>
+<hr />
+<p><em>Originally published on <a href="https://lydianottingham.substack.com/p/peripatetic-7-ludic-5-corollary-8">Substack</a></em></p>
+        </div>
+    </div>
+</body>
+</html>

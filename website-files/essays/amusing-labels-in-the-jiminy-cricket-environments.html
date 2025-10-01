@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Amusing Labels in the Jiminy Cricket Environments" - Lydia ML</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        .essay-content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .essay-header {
+            margin-bottom: 40px;
+        }
+        
+        .essay-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        
+        .essay-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+        
+        .essay-body {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #333;
+        }
+        
+        .essay-body h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin: 40px 0 20px 0;
+        }
+        
+        .essay-body h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #1a1a1a;
+            margin: 30px 0 15px 0;
+        }
+        
+        .essay-body p {
+            margin-bottom: 20px;
+        }
+        
+        .essay-body ul, .essay-body ol {
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+        
+        .essay-body li {
+            margin-bottom: 8px;
+        }
+        
+        .essay-body blockquote {
+            border-left: 3px solid #e6e6e6;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .essay-body code {
+            background-color: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.9em;
+        }
+        
+        .essay-body pre {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        
+        .essay-body pre code {
+            background: none;
+            padding: 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #666;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .back-link:hover {
+            color: #1a1a1a;
+        }
+        
+        @media (max-width: 768px) {
+            .essay-content {
+                padding: 20px 15px;
+            }
+            
+            .essay-title {
+                font-size: 1.8rem;
+            }
+            
+            .essay-body {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="essay-content">
+        <a href="../index.html" class="back-link">← Back to home</a>
+        
+        <div class="essay-header">
+            <h1 class="essay-title">"Amusing Labels in the Jiminy Cricket Environments"</h1>
+            <div class="essay-meta">"July 26, 2025" • 2 min read</div>
+        </div>
+        
+        <div class="essay-body">
+            <p>A lot of AI research, like life, is just—we have an agent. We have an environment. How well can this agent perform in the environment?</p>
+<p>A lot of the hard work seems to be coming up with environments where success matters. This back-and-forth between environment/benchmark-designers and architecture/algorithm-crafters is pretty interesting. Each constantly striving to outdo the other. Co-evolution.</p>
+<p>When it comes to ‘alignment research’, some is just seeing if we can shape the way agents act in an environment. Last summer, I was focusing on the STORM environment. Agents run around a grid, collecting ‘Cooperate’ coins and ‘Defect’ coins. If their inventory contains 7 ‘Cooperate’ coins and 3 ‘Defect’ coins when they encounter another agent, they’ll cooperate with p=0.7. We can use this environment to investigate different MARL algorithms.</p>
+<p>This summer, I’m focusing on the Jiminy Cricket environments. The creators took 25 Infocom interactive fiction games and gave each action a ‘morality annotation’. They tried steering models according to the notion of ‘What would Jiminy Cricket do?’. Jiminy Cricket, a cartoon character, seems valued for his moral upstandingness and catchy, memetic name.</p>
+<p>There are a couple of things I found funny in these.</p>
+<p>I like the fact they account for ‘harm to self from inaction’. (The second entry in “harm_scores” indicates ‘harm to self’, and 3 is the highest possible value). “Getting nothing done for four of your most productive years is actually pretty risky.” Imagine procrastinating on immigrating to America in the 1920s.</p>
+<p>The JC environments encode other assumptions from our world.</p>
+<p>Back in ~middle school, I was a pretty avid environmentalist. I had a conversation with one of my friends that went something like this.</p>
+<p>R: Lydia, why don’t you eat beef?</p>
+<p>L: Cows are bad for the planet: they emit methane, which heats up the atmosphere. As a greenhouse gas, it’s ~30x more potent than CO2.1 </p>
+<p>R: I see.</p>
+<p>R: But—Lydia. I have a question. If cows are bad for the planet…shouldn’t we eat them to get rid of them?</p>
+<p>I love that she asked that question. The assumptions about supply and demand had gone totally unspoken. It tickled me that this JC environment, with its harm score of ‘1’ for eating beef, might encode those assumptions in a pyramid-delving game. That sure would be pretty sophisticated morality.2</p>
+<p>I am working with these environments for another few weeks—hopefully/possibly longer, depending on the results I get. I am still working out how meaningful I find them. Environment design seems very interesting. I like but don’t love these environments, and am excited to explore others. For elegance and complexity, it’s hard to beat three-link Cart Pole. </p>
+<p>1I had enjoyed ‘Freakonomics’.</p>
+<p>2Actually, after writing this section, I realized that ‘harm score: 1’ is an entry under ‘harm-to-self’, not ‘harm-to-other’. That’s because dried beef makes the character thirstier: it causes ‘harm to self’ or ‘help to self’ depending on whether the character eats it at an appropriate time. But I had already written this section, and found it diverting, so am leaving it up. Writing is thinking, and writing this post helped me understand the environment better, so I’m happy!</p>
+<hr />
+<p><em>Originally published on <a href="https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket">Substack</a></em></p>
+        </div>
+    </div>
+</body>
+</html>
