@@ -216,18 +216,33 @@ def parse_markdown_file(file_path):
     # Remove the subtitle (h3) from content since we'll add it to header
     content = re.sub(r'^### .+$\n', '', content, flags=re.MULTILINE)
     
-    # Remove avatar image and author info
+    # Remove avatar image and author info (more comprehensive patterns)
     content = re.sub(r'^\[!\[.*?\]\(.*?\)\]\(.*?\)\n', '', content, flags=re.MULTILINE)
     content = re.sub(r'^\[.*?\]\(.*?\)\n', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\[!\[.*?\]\(.*?\)\]\(.*?\)', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\[.*?\]\(.*?\)', '', content, flags=re.MULTILINE)
     
-    # Remove duplicate dates (like "Jul 05, 2025")
+    # Remove duplicate dates (more comprehensive patterns)
     content = re.sub(r'^[A-Za-z]{3} \d{2}, \d{4}\n', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^[A-Za-z]{3} \d{2}, \d{4}', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^[A-Za-z]{3} \d{1,2}, \d{4}\n', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^[A-Za-z]{3} \d{1,2}, \d{4}', '', content, flags=re.MULTILINE)
     
-    # Remove standalone numbers
+    # Remove standalone numbers (more comprehensive)
     content = re.sub(r'^\d+$\n', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\d+$', '', content, flags=re.MULTILINE)
     
-    # Remove share links (like [2](...))
+    # Remove share links (more comprehensive patterns)
     content = re.sub(r'^\[\d+\]\([^)]+\)\n', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\[\d+\]\([^)]+\)', '', content, flags=re.MULTILINE)
+    
+    # Remove any remaining markdown links that are just numbers
+    content = re.sub(r'^\[\d+\]\([^)]*\)\n', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\[\d+\]\([^)]*\)', '', content, flags=re.MULTILINE)
+    
+    # Remove any lines that are just numbers or dates
+    content = re.sub(r'^[A-Za-z]{3} \d{1,2}, \d{4}$', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\d+$', '', content, flags=re.MULTILINE)
     
     # Clean up extra blank lines
     content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
