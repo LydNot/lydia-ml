@@ -10,7 +10,7 @@ from datetime import datetime
 import markdown
 from pathlib import Path
 
-def create_html_template(title, content, date=None, category=None):
+def create_html_template(title, content, date=None, category=None, subtitle=None):
     """Create HTML template for essays"""
     if not date:
         date = datetime.now().strftime("%B %d, %Y")
@@ -52,7 +52,16 @@ def create_html_template(title, content, date=None, category=None):
         .essay-meta {{
             color: #666;
             font-size: 0.9rem;
+            margin-bottom: 15px;
+        }}
+        
+        .essay-subtitle {{
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
             margin-bottom: 30px;
+            font-style: italic;
         }}
         
         .essay-body {{
@@ -154,6 +163,7 @@ def create_html_template(title, content, date=None, category=None):
         <div class="essay-header">
             <h1 class="essay-title">{title}</h1>
             <div class="essay-meta">{date} • {reading_time} min read</div>
+            {f'<div class="essay-subtitle">{subtitle}</div>' if subtitle else ''}
         </div>
         
         <div class="essay-body">
@@ -193,6 +203,36 @@ def parse_markdown_file(file_path):
         else:
             title = Path(file_path).stem.replace('-', ' ').title()
     
+    # Extract subtitle from h3 heading
+    subtitle = None
+    subtitle_match = re.search(r'^### (.+)$', content, re.MULTILINE)
+    if subtitle_match:
+        subtitle = subtitle_match.group(1)
+    
+    # Clean up content by removing redundant elements
+    # Remove the main title (h1) if it's duplicated
+    content = re.sub(r'^# .+$\n', '', content, flags=re.MULTILINE)
+    
+    # Remove the subtitle (h3) from content since we'll add it to header
+    content = re.sub(r'^### .+$\n', '', content, flags=re.MULTILINE)
+    
+    # Remove avatar image and author info
+    content = re.sub(r'^\[!\[.*?\]\(.*?\)\]\(.*?\)\n', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\[.*?\]\(.*?\)\n', '', content, flags=re.MULTILINE)
+    
+    # Remove duplicate dates (like "Jul 05, 2025")
+    content = re.sub(r'^[A-Za-z]{3} \d{2}, \d{4}\n', '', content, flags=re.MULTILINE)
+    
+    # Remove standalone numbers
+    content = re.sub(r'^\d+$\n', '', content, flags=re.MULTILINE)
+    
+    # Remove share links (like [2](...))
+    content = re.sub(r'^\[\d+\]\([^)]+\)\n', '', content, flags=re.MULTILINE)
+    
+    # Clean up extra blank lines
+    content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
+    content = content.strip()
+    
     # Convert markdown to HTML
     md = markdown.Markdown(extensions=['extra', 'codehilite'])
     html_content = md.convert(content)
@@ -202,6 +242,7 @@ def parse_markdown_file(file_path):
         'content': html_content,
         'date': frontmatter.get('date', ''),
         'category': frontmatter.get('category', ''),
+        'subtitle': subtitle,
         'filename': Path(file_path).stem
     }
 
@@ -227,7 +268,8 @@ def convert_all_essays():
             essay_data['title'],
             essay_data['content'],
             essay_data['date'],
-            essay_data['category']
+            essay_data['category'],
+            essay_data['subtitle']
         )
         
         # Write HTML file

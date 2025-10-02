@@ -31,7 +31,16 @@
         .essay-meta {
             color: #666;
             font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .essay-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
             margin-bottom: 30px;
+            font-style: italic;
         }
         
         .essay-body {
@@ -133,6 +142,7 @@
         <div class="essay-header">
             <h1 class="essay-title">"90/30 ML Reading Group: Retrospective"</h1>
             <div class="essay-meta">"June 24, 2025" • 7 min read</div>
+            <div class="essay-subtitle">This corner of the SF AI scene is wonderful</div>
         </div>
         
         <div class="essay-body">
@@ -142,7 +152,7 @@
 </ol>
 <p>In the first week, I was nervous about how more experienced attendees / people who work in ML full-time would find the group. I wanted to keep it open to all backgrounds, &amp; I was on the newer end. I know it’s hard to have great discussions when participants lack context.</p>
 <p>To this end, I set up a ‘no dumb questions’ room and a ‘prior knowledge assumed’ room. This worked great—for the ‘no dumb questions’ room! No one really wanted to join the ‘prior knowledge assumed’ room, and instead some milled awkwardly between the two. Then various experts started drifting into the ‘no dumb questions’ room, delighting in giving explanations and answering newbies’ questions. This was awesome and unexpected! From second week onwards, I gathered everyone together, and this seemed to work better—informed amateurs could ask questions; experienced members could discuss these publicly or volunteer to present.</p>
-<p><img alt="Image" src="/images/9030-ml-reading-group-retrospective_img_03.webp" /></p>
+<p><img alt="Image" src="images/9030-ml-reading-group-retrospective_img_03.webp" /></p>
 <p>Going back, I’d rename the latter to something like ‘I read the paper’ room, which might’ve been friendlier.</p>
 <ol>
 <li><strong>Amazing people come out of the woodwork on lu.ma</strong></li>
@@ -154,7 +164,6 @@
 </ol>
 <p>I didn’t have to use that filter much, though, because virtually all people who signed up turned out to be genuinely interested (which in turn made them great fits for the group). I used the potentially apocryphal ‘<a href="https://aman.ai/primers/ai/top-30-papers/">Ilya list</a>’, supposedly given by Ilya Sutskever to John Carmack in ~2020: “If you really learn [these 30 papers], you’ll know 90% of what matters today." (That’s how the club got its name!). These are mostly pre-2020, somewhat off-the-beaten-track, and I think this helped attract a thoughtful crowd.</p>
 <p>The other reading list I considered using was <a href="https://www.latent.space/p/2025-papers">Latent Space’s</a>, which I think would’ve had different effects. (The group might progress to these.)</p>
-<p><a href="https://www.latent.space/p/2025-papers?utm_source=substack&amp;utm_campaign=post_embed&amp;utm_medium=web"><img alt="Image" src="/images/9030-ml-reading-group-retrospective_img_04.png" />Latent.SpaceThe 2025 AI Engineer Reading ListDiscussions on X, LinkedIn, YouTube. Also: Meet AI Engineers in person! Applications closing soon for attending and sponsoring AI Engineer Summit NYC, Feb 20-21…Read more9 months ago · 550 likes · 18 comments</a></p>
 <ol>
 <li><strong>Attendee interest is heavy-tailed</strong></li>
 </ol>
@@ -168,7 +177,6 @@
 <li><strong>Great analogies work wonders</strong></li>
 </ol>
 <p>My compatriot Xi is a gifted explainer. He explained ‘<a href="https://arxiv.org/abs/1706.01427">A simple neural network module for relational reasoning</a>’ by way of analogy.</p>
-<p><a href="https://substackcdn.com/image/fetch/$s_!S056!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F119879c9-688d-4b4a-b7e7-ec894426b6e5_1463x465.png"><img alt="Image" src="/images/9030-ml-reading-group-retrospective_img_05.png" /></a></p>
 <p>Analogy with washrooms, that is. Imagine living in a student dorm. Think how inefficient it would be if every room were to have its own en-suite! A collective washroom is much cheaper. With that established, Xi continued through the rest of the paper.</p>
 <p>Halfway through, Xi refined his analogy. Since the comparison functions have two inputs, what about speed-dating? Imagine if, for any given couple, we had to train an aunty from scratch to determine their compatibility. Now imagine we have one highly trained, specialized individual performing this job. Much more efficient! Much easier to re-use lessons from pair to pair! I don’t think we’ll forget the key concept here.</p>
 <ol>
@@ -178,11 +186,11 @@
 <ol>
 <li><strong>OpenAI trained GPT-2 on links liked by Redditors</strong></li>
 </ol>
-<p><a href="https://substackcdn.com/image/fetch/$s_!NQ5V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4f7edad-8ad9-43e2-b6b1-922f41dd667a_1957x611.png"><img alt="Image" src="/images/9030-ml-reading-group-retrospective_img_06.png" /></a> I just found this interesting. Creative, effective dataset construction. Redditors punching above their weight.</p>
+<p><a href="https://substackcdn.com/image/fetch/$s_!NQ5V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4f7edad-8ad9-43e2-b6b1-922f41dd667a_1957x611.png"><img alt="Image" src="images/9030-ml-reading-group-retrospective_img_06.png" /></a> I just found this interesting. Creative, effective dataset construction. Redditors punching above their weight.</p>
 <ol>
 <li><strong>There are a few different categories of ML paper</strong></li>
 </ol>
-<p><a href="https://substackcdn.com/image/fetch/$s_!nqPR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08122361-595a-4c86-8a43-83db22f90e70_903x692.jpeg"><img alt="Image" src="/images/9030-ml-reading-group-retrospective_img_07.jpeg" /></a> Refinements welcome</p>
+<p><a href="https://substackcdn.com/image/fetch/$s_!nqPR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08122361-595a-4c86-8a43-83db22f90e70_903x692.jpeg"><img alt="Image" src="images/9030-ml-reading-group-retrospective_img_07.jpeg" /></a> Refinements welcome</p>
 <ol>
 <li><strong>Folk wisdom abounds</strong></li>
 </ol>
@@ -198,7 +206,7 @@
 <p><strong>Gains from specialization</strong></p>
 </li>
 </ol>
-<p><a href="https://substackcdn.com/image/fetch/$s_!nWDG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe742debd-f573-4c59-9c0a-1fd317bbd209_1520x212.png"><img alt="Image" src="/images/9030-ml-reading-group-retrospective_img_08.png" /></a>ML echoes Econ sometimes</p>
+<p><a href="https://substackcdn.com/image/fetch/$s_!nWDG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe742debd-f573-4c59-9c0a-1fd317bbd209_1520x212.png"><img alt="Image" src="images/9030-ml-reading-group-retrospective_img_08.png" /></a>ML echoes Econ sometimes</p>
 <ol>
 <li><strong>Crowdsourcing is tough but rewarding</strong></li>
 </ol>
