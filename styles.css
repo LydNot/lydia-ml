@@ -271,10 +271,10 @@ body {
 
 /* Image styles */
 img {
-    max-width: 60%;
+    max-width: 30%;
     height: auto;
     display: block;
-    margin: 15px auto;
+    margin: 10px auto;
     border-radius: 4px;
 }
 
@@ -290,8 +290,8 @@ img[alt*="avatar"] {
 /* Make images even smaller on mobile */
 @media (max-width: 768px) {
     img {
-        max-width: 80%;
-        margin: 10px auto;
+        max-width: 50%;
+        margin: 8px auto;
     }
     
     img[alt*="avatar"] {

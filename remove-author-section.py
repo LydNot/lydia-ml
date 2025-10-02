@@ -1,66 +1,74 @@
 #!/usr/bin/env python3
 """
-Remove buggy author section from HTML files
-Usage: python3 remove-author-section.py
+Remove buggy author section from all essay HTML files.
+This removes the duplicate date, numbers, and share button section.
 """
 
-import re
 import os
-from pathlib import Path
+import re
+import glob
+
+def remove_author_section(content):
+    """Remove the buggy author section from HTML content."""
+    
+    # Pattern to match the buggy section:
+    # <p>Jun 01, 2025</p> (or similar date)
+    # <p>4</p> (or similar number)
+    # <p><a href="...">1</a></p> (or similar share link)
+    
+    # Remove duplicate date line (like <p>Jun 01, 2025</p>)
+    content = re.sub(r'<p>\w{3} \d{2}, \d{4}</p>\s*\n', '', content)
+    
+    # Remove standalone number lines (like <p>4</p>)
+    content = re.sub(r'<p>\d+</p>\s*\n', '', content)
+    
+    # Remove share link lines (like <p><a href="...">1</a></p>)
+    content = re.sub(r'<p><a href="[^"]*">\d+</a></p>\s*\n', '', content)
+    
+    # Clean up any extra blank lines
+    content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
+    
+    return content
+
+def process_essay_file(file_path):
+    """Process a single essay HTML file."""
+    print(f"Processing: {file_path}")
+    
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        original_content = content
+        content = remove_author_section(content)
+        
+        if content != original_content:
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(content)
+            print(f"  ✅ Updated: {file_path}")
+        else:
+            print(f"  ⏭️  No changes needed: {file_path}")
+            
+    except Exception as e:
+        print(f"  ❌ Error processing {file_path}: {e}")
 
 def main():
-    print("Removing buggy author section from HTML files...")
+    """Main function to process all essay files."""
+    print("🧹 Removing buggy author sections from essay files...")
     
-    essays_dir = Path('essays')
-    website_essays_dir = Path('website-files/essays')
+    # Find all HTML files in essays directory
+    essay_files = glob.glob("essays/*.html")
     
-    updated_count = 0
+    if not essay_files:
+        print("❌ No essay files found in essays/ directory")
+        return
     
-    for essays_path in [essays_dir, website_essays_dir]:
-        if not essays_path.exists():
-            continue
-            
-        print(f"\nProcessing {essays_path}...")
-        
-        for html_file in essays_path.glob('*.html'):
-            print(f"  Processing {html_file.name}...")
-            
-            with open(html_file, 'r', encoding='utf-8') as f:
-                content = f.read()
-            
-            original_content = content
-            
-            # Remove the buggy author section
-            # This pattern matches the section with avatar, name, date, and share button
-            author_pattern = r'<p><a href="https://substack\.com/@lydianottingham"><img alt="[^"]*" src="/images/[^"]*" /></a></p>\s*<p><a href="https://substack\.com/@lydianottingham">Lydia Nottingham</a></p>\s*<p>[^<]*</p>\s*<p>\d+</p>\s*<p>\d+</p>\s*<p><a href="[^"]*">Share</a></p>'
-            
-            content = re.sub(author_pattern, '', content, flags=re.MULTILINE | re.DOTALL)
-            
-            # Also remove any standalone avatar images
-            avatar_pattern = r'<p><a href="https://substack\.com/@lydianottingham"><img alt="[^"]*" src="/images/[^"]*" /></a></p>'
-            content = re.sub(avatar_pattern, '', content)
-            
-            # Remove any standalone "Lydia Nottingham" links
-            name_pattern = r'<p><a href="https://substack\.com/@lydianottingham">Lydia Nottingham</a></p>'
-            content = re.sub(name_pattern, '', content)
-            
-            # Remove any standalone share links
-            share_pattern = r'<p><a href="[^"]*">Share</a></p>'
-            content = re.sub(share_pattern, '', content)
-            
-            # Clean up any extra whitespace
-            content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
-            
-            if content != original_content:
-                with open(html_file, 'w', encoding='utf-8') as f:
-                    f.write(content)
-                print(f"    ✓ Removed author section")
-                updated_count += 1
-            else:
-                print(f"    - No author section found")
+    print(f"Found {len(essay_files)} essay files to process")
     
-    print(f"\n✓ Updated {updated_count} HTML files!")
-    print("Buggy author sections removed")
+    for file_path in essay_files:
+        process_essay_file(file_path)
+    
+    print("\n🎉 Finished processing all essay files!")
+    print("The buggy author sections (avatar, name, numbers, share button) have been removed.")
 
 if __name__ == "__main__":
     main()
