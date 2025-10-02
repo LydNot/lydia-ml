@@ -7,7 +7,7 @@ source: "https://lydianottingham.substack.com/p/start-of-substack"
 
 # Start of Substack
 
-[![Lydia Nottingham's avatar](images/start-of-substack_img_01.png)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/start-of-substack_img_01.jpeg)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 

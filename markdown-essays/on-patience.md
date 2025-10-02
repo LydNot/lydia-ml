@@ -7,7 +7,7 @@ source: "https://lydianottingham.substack.com/p/patience"
 
 # On Patience
 
-[![Lydia Nottingham's avatar](images/on-patience_img_01.png)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/on-patience_img_01.jpeg)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 

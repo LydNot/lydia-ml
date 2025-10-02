@@ -7,7 +7,7 @@ source: "https://lydianottingham.substack.com/p/the-box-shop"
 
 # The Box Shop
 
-[![Lydia Nottingham's avatar](images/the-box-shop_img_01.png)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/the-box-shop_img_01.jpeg)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 

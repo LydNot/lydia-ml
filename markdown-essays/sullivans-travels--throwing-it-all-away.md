@@ -7,7 +7,7 @@ source: "https://lydianottingham.substack.com/p/sullivans-travels-and-throwing-i
 
 # Sullivan's Travels & 'throwing it all away'
 
-[![Lydia Nottingham's avatar](images/sullivans-travels--throwing-it-all-away_img_01.png)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/sullivans-travels--throwing-it-all-away_img_01.jpeg)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 

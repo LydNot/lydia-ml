@@ -7,7 +7,7 @@ source: "https://lydianottingham.substack.com/p/no-taxicab-fallacy-for-knowledge
 
 # No taxicab fallacy for knowledge workers
 
-[![Lydia Nottingham's avatar](images/no-taxicab-fallacy-for-knowledge-workers_img_01.png)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/no-taxicab-fallacy-for-knowledge-workers_img_01.jpeg)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 

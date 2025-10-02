@@ -9,7 +9,7 @@ source: "https://lydianottingham.substack.com/p/peripatetic-7-ludic-5-corollary-
 
 ### wordscraping
 
-[![Lydia Nottingham's avatar](images/peripatetic-7-ludic-5-corollary-8_img_01.png)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/peripatetic-7-ludic-5-corollary-8_img_01.jpeg)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 
@@ -33,7 +33,7 @@ But there’s actually a far simpler way! Sets don’t include duplicates, where
 
 27% of my words were duplicates. The most common:
 
-[![Image](images/peripatetic-7-ludic-5-corollary-8_img_02.png)](images/peripatetic-7-ludic-5-corollary-8_img_03.jpeg)
+[![Image](images/peripatetic-7-ludic-5-corollary-8_img_02.webp)](https://substackcdn.com/image/fetch/$s_!GBxk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59580399-1878-45f1-a395-4ea9174a1351_339x1595.webp)
 
 These are the words I encountered most frequently and initially struggled to retain. Some of them seem funny now—they include words I use ~frequently (corollary, vignette, litany) and some of my favorite words (dichotomy, ludic, peripatetic)!
 
