@@ -9,7 +9,7 @@ source: "https://lydianottingham.substack.com/p/beware-the-delmore-effect"
 
 ### Sorting what matters most
 
-[![Lydia Nottingham's avatar](images/img_01.jpeg)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/beware-the-delmore-effect-_img_01.png)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 

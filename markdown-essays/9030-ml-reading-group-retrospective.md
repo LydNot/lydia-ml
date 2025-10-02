@@ -9,7 +9,7 @@ source: "https://lydianottingham.substack.com/p/9030-ml-reading-group-retrospect
 
 ### This corner of the SF AI scene is wonderful
 
-[![Lydia Nottingham's avatar](images/img_01.jpeg)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/9030-ml-reading-group-retrospective_img_01.png)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 
@@ -29,7 +29,7 @@ In the first week, I was nervous about how more experienced attendees / people w
 
 To this end, I set up a ‘no dumb questions’ room and a ‘prior knowledge assumed’ room. This worked great—for the ‘no dumb questions’ room! No one really wanted to join the ‘prior knowledge assumed’ room, and instead some milled awkwardly between the two. Then various experts started drifting into the ‘no dumb questions’ room, delighting in giving explanations and answering newbies’ questions. This was awesome and unexpected! From second week onwards, I gathered everyone together, and this seemed to work better—informed amateurs could ask questions; experienced members could discuss these publicly or volunteer to present.
 
-![](images/img_02.webp)![](images/img_03.webp)
+![](images/9030-ml-reading-group-retrospective_img_02.png)![](images/9030-ml-reading-group-retrospective_img_03.jpeg)
 
 Going back, I’d rename the latter to something like ‘I read the paper’ room, which might’ve been friendlier.
 
@@ -45,7 +45,7 @@ I didn’t have to use that filter much, though, because virtually all people wh
 
 The other reading list I considered using was [Latent Space’s](https://www.latent.space/p/2025-papers), which I think would’ve had different effects. (The group might progress to these.)
 
-[![](images/img_04.png)Latent.SpaceThe 2025 AI Engineer Reading ListDiscussions on X, LinkedIn, YouTube. Also: Meet AI Engineers in person! Applications closing soon for attending and sponsoring AI Engineer Summit NYC, Feb 20-21…Read more9 months ago · 550 likes · 18 comments](https://www.latent.space/p/2025-papers?utm_source=substack&utm_campaign=post_embed&utm_medium=web)
+[![](images/9030-ml-reading-group-retrospective_img_04.png)Latent.SpaceThe 2025 AI Engineer Reading ListDiscussions on X, LinkedIn, YouTube. Also: Meet AI Engineers in person! Applications closing soon for attending and sponsoring AI Engineer Summit NYC, Feb 20-21…Read more9 months ago · 550 likes · 18 comments](https://www.latent.space/p/2025-papers?utm_source=substack&utm_campaign=post_embed&utm_medium=web)
 
   4. **Attendee interest is heavy-tailed**
 
@@ -61,7 +61,7 @@ I loved [Pointer Networks](https://arxiv.org/abs/1506.03134). I also really like
 
 My compatriot Xi is a gifted explainer. He explained ‘[A simple neural network module for relational reasoning](https://arxiv.org/abs/1706.01427)’ by way of analogy.
 
-[![](images/img_05.png)](images/img_06.png)
+[![](images/9030-ml-reading-group-retrospective_img_04.jpeg)](images/9030-ml-reading-group-retrospective_img_06.png)
 
 Analogy with washrooms, that is. Imagine living in a student dorm. Think how inefficient it would be if every room were to have its own en-suite! A collective washroom is much cheaper. With that established, Xi continued through the rest of the paper.
 
@@ -73,11 +73,11 @@ Another great presentation came from [Oscar](https://oscarhong.net/). Oscar reci
 
   8. **OpenAI trained GPT-2 on links liked by Redditors**
 
-[![](images/img_07.png)](images/img_08.png) I just found this interesting. Creative, effective dataset construction. Redditors punching above their weight.
+[![](images/9030-ml-reading-group-retrospective_img_07.png)](images/9030-ml-reading-group-retrospective_img_05.webp) I just found this interesting. Creative, effective dataset construction. Redditors punching above their weight.
 
   9. **There are a few different categories of ML paper**
 
-[![](images/img_09.jpeg)](images/img_10.jpeg) Refinements welcome
+[![](images/9030-ml-reading-group-retrospective_img_09.jpeg)](images/9030-ml-reading-group-retrospective_img_06.png) Refinements welcome
 
   10. **Folk wisdom abounds**
 
@@ -89,7 +89,7 @@ There are some recurring themes that resonate with a wide range of backgrounds. 
 
   2. **Gains from specialization**
 
-[![](images/img_11.png)](images/img_12.png)ML echoes Econ sometimes
+[![](images/9030-ml-reading-group-retrospective_img_11.png)](images/9030-ml-reading-group-retrospective_img_07.webp)ML echoes Econ sometimes
 
   11. **Crowdsourcing is tough but rewarding**
 

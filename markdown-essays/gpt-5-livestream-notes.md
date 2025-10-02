@@ -9,7 +9,7 @@ source: "https://lydianottingham.substack.com/p/gpt-5-livestream-notes"
 
 ### Low-tech language acquisition
 
-[![Lydia Nottingham's avatar](images/img_01.jpeg)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/gpt-5-livestream-notes_img_01.png)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 
@@ -27,13 +27,13 @@ My expectations were deflated by the emphasis on traditional, low-tech language 
 
 Here in 2025, Yann Dubois vibecodes an app to help his partner learn French. This ‘sent me’; the theme is evergreen.
 
-[![](images/img_02.png)](images/img_03.png)
+[![](images/gpt-5-livestream-notes_img_02.png)](images/gpt-5-livestream-notes_img_02.jpeg)
 
 Where’s the spaced repetition? OK, I appreciate this as a vehicle to show off GPT-5’s webdev. But it’s not over yet.
 
 Next it’s over to Ruochen Wang, who is learning Korean (I am curious why). We hear Advanced Voice Mode generate a Korean phrase, speak it slowly, then quickly. 
 
-[![](images/img_04.png)](images/img_05.png)
+[![](images/gpt-5-livestream-notes_img_04.png)](images/gpt-5-livestream-notes_img_03.jpeg)
 
 Again, I get that this is basically a vehicle to show off multimodal capabilities. But anglophone AI researchers still learning foreign languages, in a way that looks remotely like this, makes me feel pretty far from ‘transformative AI’.
 

@@ -9,7 +9,7 @@ source: "https://lydianottingham.substack.com/p/not-buying-a-chinese-agibot"
 
 ### Yours for $110,000
 
-[![Lydia Nottingham's avatar](images/img_01.jpeg)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/not-buying-a-chinese-agibot_img_01.png)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 
@@ -25,15 +25,15 @@ Jun 01, 2025
 
 _Still, I think people aren’t talking about robots enough, and in honor of[LessOnline](https://less.online/), I want to push some posts today._
 
-[![](images/img_02.png)](images/img_03.png)
+[![](images/not-buying-a-chinese-agibot_img_02.png)](images/not-buying-a-chinese-agibot_img_02.jpeg)
 
 _^ Comparative analysis from the[Robozaps blog](https://blog.robozaps.com/b/best-humanoid-robots?utm_source=chatgpt.com)._
 
 The most prolific producer of humanoid robots is a Chinese firm called AgiBot (pronounced adj-ee-bot). As of January 2025, they claim to have produced 1000 general-purpose embodied robots: [731 bipedal, 269 wheeled](https://www.agibot.com/article/242/detail/26.html). You can see them marching in promotional videos on [AgiBot’s site](https://www.agibot.com/):
 
-[![](images/img_04.png)](images/img_05.png)
+[![](images/not-buying-a-chinese-agibot_img_04.png)](images/not-buying-a-chinese-agibot_img_03.jpeg)
 
-[![](images/img_06.png)](images/img_07.png)
+[![](images/not-buying-a-chinese-agibot_img_06.png)](images/not-buying-a-chinese-agibot_img_07.png)
 
 I enjoyed this [video](https://youtube.com/shorts/yGSTjpXzjlY?si=4rTpmjW7GGRfTfLl) in which one of their models rides a bicycle.
 
@@ -43,7 +43,7 @@ Fortunately, third-party vendors exist.
 
 [Top 3D shop](https://top3dshop.com/product/agibot-a2-humanoid-robot) quoted me AgiBot A2 at a cheap **$110,000**!
 
-[![](images/img_08.png)](images/img_09.png)
+[![](images/not-buying-a-chinese-agibot_img_04.webp)](images/not-buying-a-chinese-agibot_img_05.jpeg)
 
 San Francisco minimum wage increases to $19.18 per hour on July 1, 2025. That’s ~$41,600 per year pre-tax. So **1 AgiBot = ~2.5 years of human work**. Battery life is only 5 hours, but battery swapping is supported, which seems less disruptive than a human lunch break. Based on what I mentioned above, we’ll probably see robots whose **upfront cost equals <1 year of human labor within a year or two**.
 
@@ -65,7 +65,7 @@ Here are some questions I have about this:
 
 As of May 2024, there were apparently at least [1500 copies](https://www.theguardian.com/science/article/2024/may/30/chinese-armys-latest-weapon-gun-toting-dog) of Boston Dynamics’ security-patrolling dog, Spot, deployed worldwide.¹ 
 
-[![Boston Dynamics Expands Global Sales of Spot® Robot | Boston Dynamics](images/img_10.jpeg)](images/img_11.jpeg)
+[![Boston Dynamics Expands Global Sales of Spot® Robot | Boston Dynamics](images/not-buying-a-chinese-agibot_img_06.png)](images/not-buying-a-chinese-agibot_img_07.png)
 
 I’d love to talk more about robots!
 

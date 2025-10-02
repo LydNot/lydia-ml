@@ -9,7 +9,7 @@ source: "https://lydianottingham.substack.com/p/avocado-experiment"
 
 ### .
 
-[![Lydia Nottingham's avatar](images/img_01.jpeg)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/avocado-experiment_img_01.png)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 

@@ -9,7 +9,7 @@ source: "https://lydianottingham.substack.com/p/how-to-be-a-human-starter-pack"
 
 ### exonymically christened
 
-[![Lydia Nottingham's avatar](images/img_01.jpeg)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/how-to-be-a-human-starter-pack_img_01.png)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 
@@ -21,7 +21,7 @@ Jul 05, 2025
 
 [Share](javascript:void\(0\))
 
-[![](images/img_02.png)](images/img_03.png)
+[![](images/how-to-be-a-human-starter-pack_img_02.png)](images/how-to-be-a-human-starter-pack_img_02.jpeg)
 
 The premise:
 

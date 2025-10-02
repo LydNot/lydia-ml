@@ -9,7 +9,7 @@ source: "https://lydianottingham.substack.com/p/astronomical-waste-and-conscient
 
 ### & Differential Technological Development
 
-[![Lydia Nottingham's avatar](images/img_01.jpeg)](https://substack.com/@lydianottingham)
+[![Lydia Nottingham's avatar](images/astronomical-waste--conscientious-objection-_img_01.png)](https://substack.com/@lydianottingham)
 
 [Lydia Nottingham](https://substack.com/@lydianottingham)
 
