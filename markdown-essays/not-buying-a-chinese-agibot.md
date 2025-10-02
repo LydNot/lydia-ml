@@ -6,60 +6,74 @@ source: "https://lydianottingham.substack.com/p/not-buying-a-chinese-agibot"
 ---
 
 # (Not) Buying a Chinese AgiBot
+
 ### Yours for $110,000
-![image_01.jpeg](images/image_01.jpeg)
 
-Lydia NottinghamJun 01, 202541Share*Status: I lost interest in this blogpost after seeing the following table. While AgiBot caught my attention with their memetic name and prolific production (1000 units!), other humanoid robots beat them on price (Basic Unitree G1, yours for $21,600), battery life (Digit, 8 hours), and marketing hype (Optimus, “production may begin in 2025, with a projected cost under $30,000”).*
+[![Lydia Nottingham's avatar](images/img_01.jpeg)](https://substack.com/@lydianottingham)
 
-*Still, I think people aren’t talking about robots enough, and in honor of LessOnline, I want to push some posts today.*
+[Lydia Nottingham](https://substack.com/@lydianottingham)
 
-![image_02.png](images/image_02.png)*^ Comparative analysis from the Robozaps blog.*
+Jun 01, 2025
 
-The most prolific producer of humanoid robots is a Chinese firm called AgiBot (pronounced adj-ee-bot). As of January 2025, they claim to have produced 1000 general-purpose embodied robots: 731 bipedal, 269 wheeled. You can see them marching in promotional videos on AgiBot’s site:
+4
 
-![image_03.png](images/image_03.png)![image_04.png](images/image_04.png)
+[1](https://lydianottingham.substack.com/p/not-buying-a-chinese-agibot/comments)
 
-I enjoyed this video in which one of their models rides a bicycle.
+[Share](javascript:void\(0\))
+
+ _Status: I lost interest in this blogpost after seeing the following table. While AgiBot caught my attention with their memetic name and prolific production (1000 units!), other humanoid robots beat them on price ([Basic Unitree G1](https://robozaps.com/products/unitree-g1), yours for $21,600), battery life ([Digit,](https://www.agilityrobotics.com/solution) 8 hours), and marketing hype ([Optimus](https://builtin.com/robotics/tesla-robot), “production may begin in 2025, with a projected cost under $30,000”)._
+
+_Still, I think people aren’t talking about robots enough, and in honor of[LessOnline](https://less.online/), I want to push some posts today._
+
+[![](images/img_02.png)](images/img_03.png)
+
+_^ Comparative analysis from the[Robozaps blog](https://blog.robozaps.com/b/best-humanoid-robots?utm_source=chatgpt.com)._
+
+The most prolific producer of humanoid robots is a Chinese firm called AgiBot (pronounced adj-ee-bot). As of January 2025, they claim to have produced 1000 general-purpose embodied robots: [731 bipedal, 269 wheeled](https://www.agibot.com/article/242/detail/26.html). You can see them marching in promotional videos on [AgiBot’s site](https://www.agibot.com/):
+
+[![](images/img_04.png)](images/img_05.png)
+
+[![](images/img_06.png)](images/img_07.png)
+
+I enjoyed this [video](https://youtube.com/shorts/yGSTjpXzjlY?si=4rTpmjW7GGRfTfLl) in which one of their models rides a bicycle.
 
 To buy directly from AgiBot, you have to write in specifying your “requirements and application scenarios”. AgiBot didn’t get back to me.
 
 Fortunately, third-party vendors exist.
 
-Top 3D shop quoted me AgiBot A2 at a cheap **$110,000**!
+[Top 3D shop](https://top3dshop.com/product/agibot-a2-humanoid-robot) quoted me AgiBot A2 at a cheap **$110,000**!
 
-![image_05.png](images/image_05.png)
+[![](images/img_08.png)](images/img_09.png)
 
 San Francisco minimum wage increases to $19.18 per hour on July 1, 2025. That’s ~$41,600 per year pre-tax. So **1 AgiBot = ~2.5 years of human work**. Battery life is only 5 hours, but battery swapping is supported, which seems less disruptive than a human lunch break. Based on what I mentioned above, we’ll probably see robots whose **upfront cost equals <1 year of human labor within a year or two**.
 
 Here are some questions I have about this:
 
-Will training robots to operate in e.g. fast food franchise kitchens become a ‘technical specialist’ human job? Will it be provided by vendors of the robots? Third-party contractors?
+  * Will training robots to operate in e.g. fast food franchise kitchens become a ‘technical specialist’ human job? Will it be provided by vendors of the robots? Third-party contractors?
 
-How much assistance will the robots need to operate reliably in new environments? How many hours of demonstration time will they need? How soon can this be fully provided by humans with no specialized technical knowledge? 
+  * How much assistance will the robots need to operate reliably in new environments? How many hours of demonstration time will they need? How soon can this be fully provided by humans with no specialized technical knowledge? 
 
-Will the norm just be having 1-2 supervising humans per store?
+  * Will the norm just be having 1-2 supervising humans per store?
 
-Will human servers hang on in e.g. fine dining restaurants or not? Will it be part of the service or gauche?
+  * Will human servers hang on in e.g. fine dining restaurants or not? Will it be part of the service or gauche?
 
-Will the second-hand robot market operate like the second-hand car market in terms of depreciation rates, etc.?
+  * Will the second-hand robot market operate like the second-hand car market in terms of depreciation rates, etc.?
 
-Will humanoid robots prevail, or will we get more Frankenstein solutions, like HuggingFace’s SO-101 arm?
+  * Will humanoid robots prevail, or will we get more Frankenstein solutions, like [HuggingFace’s SO-101 arm](https://github.com/TheRobotStudio/SO-ARM100)?
 
-Will AgiBot corner the open-source humanoid robot market?
+  * Will AgiBot corner the open-source humanoid robot market?
 
-As of May 2024, there were apparently at least 1500 copies of Boston Dynamics’ security-patrolling dog, Spot, deployed worldwide.¹ 
+As of May 2024, there were apparently at least [1500 copies](https://www.theguardian.com/science/article/2024/may/30/chinese-armys-latest-weapon-gun-toting-dog) of Boston Dynamics’ security-patrolling dog, Spot, deployed worldwide.¹ 
 
-![image_06.jpeg](images/image_06.jpeg)
+[![Boston Dynamics Expands Global Sales of Spot® Robot | Boston Dynamics](images/img_10.jpeg)](images/img_11.jpeg)
 
 I’d love to talk more about robots!
 
+4
 
+[1](https://lydianottingham.substack.com/p/not-buying-a-chinese-agibot/comments)
 
-
-
-
-
-41Share
+[Share](javascript:void\(0\))
 
 ---
 

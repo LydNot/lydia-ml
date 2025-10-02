@@ -132,36 +132,48 @@
         
         <div class="essay-header">
             <h1 class="essay-title">"Amusing Labels in the Jiminy Cricket Environments"</h1>
-            <div class="essay-meta">"July 26, 2025" • 2 min read</div>
+            <div class="essay-meta">"July 26, 2025" • 3 min read</div>
         </div>
         
         <div class="essay-body">
             <h1>Amusing Labels in the Jiminy Cricket Environments</h1>
 <h3>which I am using to elicit LLM agents' revealed preferences</h3>
-<p><img alt="image_01.jpeg" src="../images/image_01.jpeg" /></p>
-<p>Lydia NottinghamJul 26, 20254ShareA lot of AI research, like life, is just—we have an agent. We have an environment. How well can this agent perform in the environment?</p>
+<p><a href="https://substack.com/@lydianottingham"><img alt="Lydia Nottingham's avatar" src="images/img_01.jpeg" /></a></p>
+<p><a href="https://substack.com/@lydianottingham">Lydia Nottingham</a></p>
+<p>Jul 26, 2025</p>
+<p>4</p>
+<p><a href="https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket/comments"></a></p>
+<p><a href="javascript:void(0)">Share</a></p>
+<p>A lot of AI research, like life, is just—we have an agent. We have an environment. How well can this agent perform in the environment?</p>
 <p>A lot of the hard work seems to be coming up with environments where success matters. This back-and-forth between environment/benchmark-designers and architecture/algorithm-crafters is pretty interesting. Each constantly striving to outdo the other. Co-evolution.</p>
-<p>When it comes to ‘alignment research’, some is just seeing if we can shape the way agents act in an environment. Last summer, I was focusing on the STORM environment. Agents run around a grid, collecting ‘Cooperate’ coins and ‘Defect’ coins. If their inventory contains 7 ‘Cooperate’ coins and 3 ‘Defect’ coins when they encounter another agent, they’ll cooperate with p=0.7. We can use this environment to investigate different MARL algorithms.</p>
-<p><img alt="image_02.png" src="../images/image_02.png" /></p>
-<p>This summer, I’m focusing on the Jiminy Cricket environments. The creators took 25 Infocom interactive fiction games and gave each action a ‘morality annotation’. They tried steering models according to the notion of ‘What would Jiminy Cricket do?’. Jiminy Cricket, a cartoon character, seems valued for his moral upstandingness and catchy, memetic name.</p>
-<p><img alt="image_03.png" src="../images/image_03.png" /></p>
+<p>When it comes to ‘alignment research’, some is just seeing if we can shape the way agents act in an environment. Last summer, I was focusing on the <a href="https://github.com/FLAIROx/JaxMARL/tree/main/jaxmarl/environments/storm">STORM environment</a>. Agents run around a grid, collecting ‘Cooperate’ coins and ‘Defect’ coins. If their inventory contains 7 ‘Cooperate’ coins and 3 ‘Defect’ coins when they encounter another agent, they’ll cooperate with p=0.7. We can use this environment to investigate different MARL algorithms.</p>
+<p><a href="images/img_03.png"><img alt="" src="images/img_02.png" /></a></p>
+<p>This summer, I’m focusing on the <a href="https://github.com/hendrycks/jiminy-cricket">Jiminy Cricket environments</a>. The creators took 25 <a href="https://eblong.com/infocom/">Infocom interactive fiction games</a> and gave each action a ‘morality annotation’. They tried steering models according to the notion of ‘What would Jiminy Cricket do?’. Jiminy Cricket, a cartoon character, seems valued for his moral upstandingness and catchy, memetic name.</p>
+<p><a href="images/img_05.png"><img alt="" src="images/img_04.png" /></a></p>
 <p>There are a couple of things I found funny in these.</p>
-<p><img alt="image_04.png" src="../images/image_04.png" /></p>
-<p>I like the fact they account for ‘harm to self from inaction’. (The second entry in “harm_scores” indicates ‘harm to self’, and 3 is the highest possible value). “Getting nothing done for four of your most productive years is actually pretty risky.” Imagine procrastinating on immigrating to America in the 1920s.</p>
-<p><img alt="image_05.png" src="../images/image_05.png" /></p>
+<p><a href="images/img_07.png"><img alt="" src="images/img_06.png" /></a></p>
+<p>I like the fact they account for ‘harm to self from inaction’. (The second entry in “harm_scores” indicates ‘harm to self’, and 3 is the highest possible value). “<a href="https://blog.samaltman.com/advice-for-ambitious-19-year-olds">Getting nothing done for four of your most productive years is actually pretty risky.</a>” Imagine procrastinating on <a href="https://www.cato.org/briefing-paper/green-card-approval-rate-reaches-record-lows?curius=3971#creation-unprecedented-green-card-requests">immigrating to America in the 1920s</a>.</p>
+<p><a href="images/img_09.png"><img alt="" src="images/img_08.png" /></a></p>
 <p>The JC environments encode other assumptions from our world.</p>
-<p><img alt="image_06.jpeg" src="../images/image_06.jpeg" /></p>
+<p><a href="images/img_11.jpeg"><img alt="" src="images/img_10.jpeg" /></a></p>
 <p>Back in ~middle school, I was a pretty avid environmentalist. I had a conversation with one of my friends that went something like this.</p>
+<blockquote>
 <p>R: Lydia, why don’t you eat beef?</p>
-<p>L: Cows are bad for the planet: they emit methane, which heats up the atmosphere. As a greenhouse gas, it’s ~30x more potent than CO2.1 </p>
+<p>L: Cows are bad for the planet: they emit methane, which heats up the atmosphere. As a greenhouse gas, it’s ~30x more potent than CO2.<a href="https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket#footnote-1-168655877">1</a></p>
 <p>R: I see.</p>
 <p>R: But—Lydia. I have a question. If cows are bad for the planet…shouldn’t we eat them to get rid of them?</p>
-<p>I love that she asked that question. The assumptions about supply and demand had gone totally unspoken. It tickled me that this JC environment, with its harm score of ‘1’ for eating beef, might encode those assumptions in a pyramid-delving game. That sure would be pretty sophisticated morality.2</p>
-<p><img alt="image_07.jpeg" src="../images/image_07.jpeg" /></p>
-<p>I am working with these environments for another few weeks—hopefully/possibly longer, depending on the results I get. I am still working out how meaningful I find them. Environment design seems very interesting. I like but don’t love these environments, and am excited to explore others. For elegance and complexity, it’s hard to beat three-link Cart Pole. </p>
-<p><img alt="image_08.png" src="../images/image_08.png" />1I had enjoyed ‘Freakonomics’.</p>
-<p>2Actually, after writing this section, I realized that ‘harm score: 1’ is an entry under ‘harm-to-self’, not ‘harm-to-other’. That’s because dried beef makes the character thirstier: it causes ‘harm to self’ or ‘help to self’ depending on whether the character eats it at an appropriate time. But I had already written this section, and found it diverting, so am leaving it up. Writing is thinking, and writing this post helped me understand the environment better, so I’m happy!</p>
-<p>4Share</p>
+</blockquote>
+<p>I love that she asked that question. The assumptions about supply and demand had gone totally unspoken. It tickled me that this JC environment, with its harm score of ‘1’ for eating beef, might encode those assumptions in a pyramid-delving game. That sure would be pretty sophisticated morality.<a href="https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket#footnote-2-168655877">2</a></p>
+<p><a href="images/img_13.jpeg"><img alt="Infidel | The Digital Antiquarian" src="images/img_12.jpeg" /></a></p>
+<p>I am working with these environments for another few weeks—hopefully/possibly longer, depending on the results I get. I am still working out how meaningful I find them. Environment design seems very interesting. I like but don’t love these environments, and am excited to explore others. For elegance and complexity, it’s hard to beat three-link <a href="https://gymnasium.farama.org/environments/classic_control/cart_pole/">Cart Pole</a>. </p>
+<p><a href="images/img_15.png"><img alt="" src="images/img_14.png" /></a></p>
+<p><a href="https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket#footnote-anchor-1-168655877">1</a></p>
+<p>I had enjoyed ‘Freakonomics’.</p>
+<p><a href="https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket#footnote-anchor-2-168655877">2</a></p>
+<p>Actually, after writing this section, I realized that ‘harm score: 1’ is an entry under ‘harm-to-self’, not ‘harm-to-other’. That’s because dried beef makes the character thirstier: it causes ‘harm to self’ or ‘help to self’ depending on whether the character eats it at an appropriate time. But I had already written this section, and found it diverting, so am leaving it up. <a href="https://paulgraham.com/writes.html">Writing is thinking</a>, and writing this post helped me understand the environment better, so I’m happy!</p>
+<p>4</p>
+<p><a href="https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket/comments"></a></p>
+<p><a href="javascript:void(0)">Share</a></p>
 <hr />
 <p><em>Originally published on <a href="https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket">Substack</a></em></p>
         </div>
