@@ -7,7 +7,9 @@ source: "https://lydianottingham.substack.com/p/peripatetic-7-ludic-5-corollary-
 
 # peripatetic: 7; ludic: 5; corollary: 8
 ### wordscraping
-![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamApr 30, 202544ShareI’ve been maintaining a list of all the new words I encounter for the past five years.
+![image_01.jpeg](images/image_01.jpeg)
+
+Lydia NottinghamApr 30, 202544ShareI’ve been maintaining a list of all the new words I encounter for the past five years.
 
 The issue is that I don’t remember all the words perfectly, so I’m sure there are some duplicates. But the document is over 100 pages long.
 
@@ -19,7 +21,9 @@ But there’s actually a far simpler way! Sets don’t include duplicates, where
 
 27% of my words were duplicates. The most common:
 
-![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59580399-1878-45f1-a395-4ea9174a1351_339x1595.webp](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59580399-1878-45f1-a395-4ea9174a1351_339x1595.webp)These are the words I encountered most frequently and initially struggled to retain. Some of them seem funny now—they include words I use ~frequently (corollary, vignette, litany) and some of my favorite words (dichotomy, ludic, peripatetic)!
+![image_02.webp](images/image_02.webp)
+
+These are the words I encountered most frequently and initially struggled to retain. Some of them seem funny now—they include words I use ~frequently (corollary, vignette, litany) and some of my favorite words (dichotomy, ludic, peripatetic)!
 
 I always had the sense that Python was supposed to be an everyday/scripting language, but I’ve been underexploiting that modality. It’s pretty cool! I’m pleasantly surprised Google’s APIs are so easy to use, as well.
 

@@ -7,7 +7,11 @@ source: "https://lydianottingham.substack.com/p/how-to-be-a-human-starter-pack"
 
 # 'How to be a Human' Starter Pack
 ### exonymically christened
-![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamJul 05, 202562Share![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29c0ae02-4cdb-4052-a67d-72f6896f8ac6_818x184.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29c0ae02-4cdb-4052-a67d-72f6896f8ac6_818x184.png)The premise:
+![image_01.jpeg](images/image_01.jpeg)
+
+Lydia NottinghamJul 05, 202562Share![image_02.png](images/image_02.png)
+
+The premise:
 
 Unilaterally running events
 

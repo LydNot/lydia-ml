@@ -6,7 +6,9 @@ source: "https://lydianottingham.substack.com/p/update-re-spontaneous-instantiat
 ---
 
 # Update re 'spontaneous instantiation'
-![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamApr 07, 202532ShareI recently wrote a story about how scheming / deceptive alignment might arise. I basically drew from Kokotajlo’s story¹ that a model might de-emphasize concepts that interfere with effectiveness, trade off one Spec trait (e.g. “honest”) for another (e.g. “helpful”), learn instrumental goals it comes to treat as terminal, and so on.
+![image_01.jpeg](images/image_01.jpeg)
+
+Lydia NottinghamApr 07, 202532ShareI recently wrote a story about how scheming / deceptive alignment might arise. I basically drew from Kokotajlo’s story¹ that a model might de-emphasize concepts that interfere with effectiveness, trade off one Spec trait (e.g. “honest”) for another (e.g. “helpful”), learn instrumental goals it comes to treat as terminal, and so on.
 
 My affinity for Kokotajlo’s story stemmed from not believing in ‘spontaneous instantiation’ — that is, believing that everything has a cause; ‘it’s not possible that something can come from nothing’. I didn’t understand how a model could spontaneously instantiate goals that are anti-human, unless it’s in response to some aspect of its programming or training, inputs we provide it.
 

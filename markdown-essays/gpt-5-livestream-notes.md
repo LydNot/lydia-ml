@@ -7,17 +7,23 @@ source: "https://lydianottingham.substack.com/p/gpt-5-livestream-notes"
 
 # GPT-5 Livestream Notes
 ### Low-tech language acquisition
-![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamAug 08, 20257ShareIn the morning, I moved some money from my checking account into stocks, just in case this turned out to be big.
+![image_01.jpeg](images/image_01.jpeg)
+
+Lydia NottinghamAug 08, 20257ShareIn the morning, I moved some money from my checking account into stocks, just in case this turned out to be big.
 
 My expectations were deflated by the emphasis on traditional, low-tech language acquisition. Musk’s micro-school, Ad Astra, has skipped teaching foreign languages since ~2014 in anticipation of immediate, real-time computer-aided translation.
 
 Here in 2025, Yann Dubois vibecodes an app to help his partner learn French. This ‘sent me’; the theme is evergreen.
 
-![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04cdcfcb-cbff-4581-9ac9-303582247c45_2727x1426.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04cdcfcb-cbff-4581-9ac9-303582247c45_2727x1426.png)Where’s the spaced repetition? OK, I appreciate this as a vehicle to show off GPT-5’s webdev. But it’s not over yet.
+![image_02.png](images/image_02.png)
+
+Where’s the spaced repetition? OK, I appreciate this as a vehicle to show off GPT-5’s webdev. But it’s not over yet.
 
 Next it’s over to Ruochen Wang, who is learning Korean (I am curious why). We hear Advanced Voice Mode generate a Korean phrase, speak it slowly, then quickly. 
 
-![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc516da60-7eb6-4f36-9ade-235ac9ce9d68_2879x1621.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc516da60-7eb6-4f36-9ade-235ac9ce9d68_2879x1621.png)Again, I get that this is basically a vehicle to show off multimodal capabilities. But anglophone AI researchers still learning foreign languages, in a way that looks remotely like this, makes me feel pretty far from ‘transformative AI’.
+![image_03.png](images/image_03.png)
+
+Again, I get that this is basically a vehicle to show off multimodal capabilities. But anglophone AI researchers still learning foreign languages, in a way that looks remotely like this, makes me feel pretty far from ‘transformative AI’.
 
 Here’s something that would’ve felt very alive:
 

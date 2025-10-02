@@ -7,7 +7,9 @@ source: "https://lydianottingham.substack.com/p/beware-the-delmore-effect"
 
 # Beware the Delmore Effect 
 ### Sorting what matters most
-![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamJun 09, 202561ShareYou should be aware of the Delmore Effect:
+![image_01.jpeg](images/image_01.jpeg)
+
+Lydia NottinghamJun 09, 202561ShareYou should be aware of the Delmore Effect:
 
 “The tendency to provide more articulate and explicit goals for lower priority areas of our lives.” —Cognitive Bias Foundation
 
