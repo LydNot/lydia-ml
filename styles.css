@@ -271,10 +271,10 @@ body {
 
 /* Image styles */
 img {
-    max-width: 30%;
+    max-width: 60%;
     height: auto;
     display: block;
-    margin: 10px auto;
+    margin: 15px auto;
     border-radius: 4px;
 }
 
@@ -287,11 +287,11 @@ img[alt*="avatar"] {
     display: inline-block;
 }
 
-/* Make images even smaller on mobile */
+/* Make images smaller on mobile */
 @media (max-width: 768px) {
     img {
-        max-width: 50%;
-        margin: 8px auto;
+        max-width: 80%;
+        margin: 12px auto;
     }
     
     img[alt*="avatar"] {
