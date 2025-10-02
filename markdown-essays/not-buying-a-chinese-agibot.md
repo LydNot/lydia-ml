@@ -5,15 +5,17 @@ category: "technology & society"
 source: "https://lydianottingham.substack.com/p/not-buying-a-chinese-agibot"
 ---
 
-*Status: I lost interest in this blogpost after seeing the following table. While AgiBot caught my attention with their memetic name and prolific production (1000 units!), other humanoid robots beat them on price (Basic Unitree G1, yours for $21,600), battery life (Digit, 8 hours), and marketing hype (Optimus, “production may begin in 2025, with a projected cost under $30,000”).*
+# (Not) Buying a Chinese AgiBot
+### Yours for $110,000
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamJun 01, 202541Share*Status: I lost interest in this blogpost after seeing the following table. While AgiBot caught my attention with their memetic name and prolific production (1000 units!), other humanoid robots beat them on price (Basic Unitree G1, yours for $21,600), battery life (Digit, 8 hours), and marketing hype (Optimus, “production may begin in 2025, with a projected cost under $30,000”).*
 
 *Still, I think people aren’t talking about robots enough, and in honor of LessOnline, I want to push some posts today.*
 
-*^ Comparative analysis from the Robozaps blog.*
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80c017e5-c872-4d58-9414-a5e814b67514_1866x830.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80c017e5-c872-4d58-9414-a5e814b67514_1866x830.png)*^ Comparative analysis from the Robozaps blog.*
 
 The most prolific producer of humanoid robots is a Chinese firm called AgiBot (pronounced adj-ee-bot). As of January 2025, they claim to have produced 1000 general-purpose embodied robots: 731 bipedal, 269 wheeled. You can see them marching in promotional videos on AgiBot’s site:
 
-I enjoyed this video in which one of their models rides a bicycle.
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fcb4ec6-4588-46f6-9ae6-aeed565a7ec8_2839x1649.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fcb4ec6-4588-46f6-9ae6-aeed565a7ec8_2839x1649.png)![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8e218d8-c95d-4039-9058-845d09dc44f1_2803x1654.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8e218d8-c95d-4039-9058-845d09dc44f1_2803x1654.png)I enjoyed this video in which one of their models rides a bicycle.
 
 To buy directly from AgiBot, you have to write in specifying your “requirements and application scenarios”. AgiBot didn’t get back to me.
 
@@ -21,7 +23,7 @@ Fortunately, third-party vendors exist.
 
 Top 3D shop quoted me AgiBot A2 at a cheap **$110,000**!
 
-San Francisco minimum wage increases to $19.18 per hour on July 1, 2025. That’s ~$41,600 per year pre-tax. So **1 AgiBot = ~2.5 years of human work**. Battery life is only 5 hours, but battery swapping is supported, which seems less disruptive than a human lunch break. Based on what I mentioned above, we’ll probably see robots whose **upfront cost equals <1 year of human labor within a year or two**.
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f12c024-fba4-4d63-ba18-b92575fbed3e_1780x1445.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f12c024-fba4-4d63-ba18-b92575fbed3e_1780x1445.png)San Francisco minimum wage increases to $19.18 per hour on July 1, 2025. That’s ~$41,600 per year pre-tax. So **1 AgiBot = ~2.5 years of human work**. Battery life is only 5 hours, but battery swapping is supported, which seems less disruptive than a human lunch break. Based on what I mentioned above, we’ll probably see robots whose **upfront cost equals <1 year of human labor within a year or two**.
 
 Here are some questions I have about this:
 
@@ -41,7 +43,15 @@ Will AgiBot corner the open-source humanoid robot market?
 
 As of May 2024, there were apparently at least 1500 copies of Boston Dynamics’ security-patrolling dog, Spot, deployed worldwide.¹ 
 
-I’d love to talk more about robots!
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F939bc2e5-8ae4-47dd-b869-970d9e57959c_2400x1350.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F939bc2e5-8ae4-47dd-b869-970d9e57959c_2400x1350.jpeg)I’d love to talk more about robots!
+
+
+
+
+
+
+
+41Share
 
 ---
 

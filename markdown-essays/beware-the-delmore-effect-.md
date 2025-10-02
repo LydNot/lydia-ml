@@ -5,7 +5,9 @@ category: "technology & society"
 source: "https://lydianottingham.substack.com/p/beware-the-delmore-effect"
 ---
 
-You should be aware of the Delmore Effect:
+# Beware the Delmore Effect 
+### Sorting what matters most
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamJun 09, 202561ShareYou should be aware of the Delmore Effect:
 
 “The tendency to provide more articulate and explicit goals for lower priority areas of our lives.” —Cognitive Bias Foundation
 
@@ -15,11 +17,17 @@ I won’t argue these things don’t matter (in general and for AI), but in my c
 
 I used to be confused about people who had what seemed to me like low-dimensional identities focused on popular, anti-esoteric topics. If you’re into AI, math, philosophy, and startups—who isn’t? It seemed somehow gauche or whatever. Some contrarian instinct in me wanted to escape it. Now I think it’s fantastic. By all means, go straight for what matters most.
 
-It’s not just a matter of field selection.  points out that a* great *paper has higher returns than a great blogpost, but writing a blogpost is easier, so he does it more often. Analogously, I’ve distracted myself with administrative homeostasis over work that might last for years.
+It’s not just a matter of field selection. Nicholas Decker points out that a* great *paper has higher returns than a great blogpost, but writing a blogpost is easier, so he does it more often. Analogously, I’ve distracted myself with administrative homeostasis over work that might last for years.
 
 Strive to swerve the Delmore Effect, and I think you’ll be better off for it.
 
 *Nuance: Please Don’t Throw Your Mind Away*
+
+
+
+
+
+61Share
 
 ---
 

@@ -5,7 +5,9 @@ category: "technology & society"
 source: "https://lydianottingham.substack.com/p/9030-ml-reading-group-retrospective"
 ---
 
-For seven weeks, I ran an ML reading group in San Francisco. Here are 13 things I learned.
+# 90/30 ML Reading Group: Retrospective
+### This corner of the SF AI scene is wonderful
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamJun 24, 20257ShareFor seven weeks, I ran an ML reading group in San Francisco. Here are 13 things I learned.
 
 **Cross-context groups can work well**
 
@@ -13,7 +15,7 @@ In the first week, I was nervous about how more experienced attendees / people w
 
 To this end, I set up a ‘no dumb questions’ room and a ‘prior knowledge assumed’ room. This worked great—for the ‘no dumb questions’ room! No one really wanted to join the ‘prior knowledge assumed’ room, and instead some milled awkwardly between the two. Then various experts started drifting into the ‘no dumb questions’ room, delighting in giving explanations and answering newbies’ questions. This was awesome and unexpected! From second week onwards, I gathered everyone together, and this seemed to work better—informed amateurs could ask questions; experienced members could discuss these publicly or volunteer to present.
 
-**Amazing people come out of the woodwork on lu.ma**
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd31d230b-aa65-4d90-a76a-b73814bc1ad5_1026x1368.webp](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd31d230b-aa65-4d90-a76a-b73814bc1ad5_1026x1368.webp)![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7add2117-eaa8-405b-a585-4a9593ca2464_1026x1368.webp](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7add2117-eaa8-405b-a585-4a9593ca2464_1026x1368.webp)Going back, I’d rename the latter to something like ‘I read the paper’ room, which might’ve been friendlier.**Amazing people come out of the woodwork on lu.ma**
 
 Initially, this reading group was meant to be for Mox members and +1s; being open to the public was incidental. But I was blown away by the people who found us on lu.ma! Many became dedicated members; some were incredibly generous with their time. Two are now leading the group.
 
@@ -25,7 +27,7 @@ I didn’t have to use that filter much, though, because virtually all people wh
 
  The other reading list I considered using was Latent Space’s, which I think would’ve had different effects.  (The group might progress to these.)
 
-Latent.SpaceThe 2025 AI Engineer Reading ListDiscussions on X, LinkedIn, YouTube. Also: Meet AI Engineers in person! Applications closing soon for attending and sponsoring AI Engineer Summit NYC, Feb 20-21…Read more9 months ago · 550 likes · 18 comments**Attendee interest is heavy-tailed**
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png)Latent.SpaceThe 2025 AI Engineer Reading ListDiscussions on X, LinkedIn, YouTube. Also: Meet AI Engineers in person! Applications closing soon for attending and sponsoring AI Engineer Summit NYC, Feb 20-21…Read more9 months ago · 550 likes · 18 comments**Attendee interest is heavy-tailed**
 
 Known to event organizers world-over: half of people who sign up won’t show. I missed that memo ordering pizza in first week.
 
@@ -39,7 +41,7 @@ I loved Pointer Networks. I also really liked looking at relational reasoning ne
 
 My compatriot Xi is a gifted explainer. He explained ‘A simple neural network module for relational reasoning’ by way of analogy.
 
-Analogy with washrooms, that is. Imagine living in a student dorm. Think how inefficient it would be if every room were to have its own en-suite! A collective washroom is much cheaper. With that established, Xi continued through the rest of the paper.
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F119879c9-688d-4b4a-b7e7-ec894426b6e5_1463x465.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F119879c9-688d-4b4a-b7e7-ec894426b6e5_1463x465.png)Analogy with washrooms, that is. Imagine living in a student dorm. Think how inefficient it would be if every room were to have its own en-suite! A collective washroom is much cheaper. With that established, Xi continued through the rest of the paper.
 
 Halfway through, Xi refined his analogy. Since the comparison functions have two inputs, what about speed-dating? Imagine if, for any given couple, we had to train an aunty from scratch to determine their compatibility. Now imagine we have one highly trained, specialized individual performing this job. Much more efficient! Much easier to re-use lessons from pair to pair! I don’t think we’ll forget the key concept here.
 
@@ -49,9 +51,9 @@ Another great presentation came from Oscar. Oscar recited miscellaneous words (�
 
 **OpenAI trained GPT-2 on links liked by Redditors**
 
-I just found this interesting. Creative, effective dataset construction. Redditors punching above their weight.**There are a few different categories of ML paper**
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4f7edad-8ad9-43e2-b6b1-922f41dd667a_1957x611.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4f7edad-8ad9-43e2-b6b1-922f41dd667a_1957x611.png)I just found this interesting. Creative, effective dataset construction. Redditors punching above their weight.**There are a few different categories of ML paper**
 
-Refinements welcome**Folk wisdom abounds**
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08122361-595a-4c86-8a43-83db22f90e70_903x692.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08122361-595a-4c86-8a43-83db22f90e70_903x692.jpeg)Refinements welcome**Folk wisdom abounds**
 
 There are some recurring themes that resonate with a wide range of backgrounds. Here are some that come to mind:
 
@@ -61,7 +63,7 @@ LSTM+attention is a more sophisticated use of attention (incorporates attention 
 
 **Gains from specialization** 
 
-ML echoes Econ sometimes**Crowdsourcing is tough but rewarding**
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe742debd-f573-4c59-9c0a-1fd317bbd209_1520x212.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe742debd-f573-4c59-9c0a-1fd317bbd209_1520x212.png)ML echoes Econ sometimes**Crowdsourcing is tough but rewarding**
 
 Week Five was ‘bring your favorite paper to present’ week. I started calling for proposals from Week 3. In the lead-up, the number of presentations oscillated between too many and too few. Thanks to the general awesomeness of the group, things turned out just right. It was stressful, but I was happiest with how this week turned out! People presented on:
 
@@ -110,6 +112,8 @@ I loved being in a fully AI/ML-focused group at 90/30 Club. I’d like to contri
 *Thanks to Ryo, Max, Oscar, Taha, Bhavesh, Logan, Euan, Yudhister, Antonio, Justin, Anshu, Xi, George, Campbell, Anup, Akhil, Jordan, Greg, Austin, Rachel, & everyone <3*
 
 pronotre is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
+
+Subscribe7Share
 
 ---
 

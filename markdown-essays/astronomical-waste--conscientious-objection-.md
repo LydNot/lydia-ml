@@ -5,7 +5,9 @@ category: "technology & society"
 source: "https://lydianottingham.substack.com/p/astronomical-waste-and-conscientious"
 ---
 
-First, I want to say that I’m actually pretty uncertain about how much of a threat different degrees of AI development pose. But I know lots of people think ‘rationalists’ should act as though we’re in a conflict—safetyists against developers. Assuming that’s the case, I want to see where their assumptions lead re worthiness of working on different things.
+# Astronomical Waste & Conscientious Objection 
+### & Differential Technological Development
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamAug 02, 202510ShareFirst, I want to say that I’m actually pretty uncertain about how much of a threat different degrees of AI development pose. But I know lots of people think ‘rationalists’ should act as though we’re in a conflict—safetyists against developers. Assuming that’s the case, I want to see where their assumptions lead re worthiness of working on different things.
 
 In this world, safetyists need to mobilize against developers, with many safetyists working directly on slowing down AI progress. That’s the force that needs to be mobilized. 
 
@@ -26,6 +28,8 @@ Independent of whether we’re in an AI-conflict-world—after all, we’re in t
 1There are caveats—we’re entering a world where one can work smart, not hard. We’re moving away from a world of military / political numbers towards one of drones, cyber-warfare, and so on. But I think this still matters.
 
 2There is nuance here re burnout, etc.. I take this as assumed & want to bite hard bullets today.
+
+10Share
 
 ---
 

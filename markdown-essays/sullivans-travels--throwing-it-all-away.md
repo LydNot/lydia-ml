@@ -5,7 +5,8 @@ category: "technology & society"
 source: "https://lydianottingham.substack.com/p/sullivans-travels-and-throwing-it"
 ---
 
-I’ve been watching classic American movies to familiarize myself with this country.
+# Sullivan's Travels & 'throwing it all away'
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamApr 21, 20251ShareI’ve been watching classic American movies to familiarize myself with this country.
 
 I think *Sullivan’s Travels *is masterful in the revelation of an underclass beneath ‘the underclass’, an unknown depth of poverty Sullivan falls into.
 
@@ -29,7 +30,12 @@ All these highlight how much escape velocity it takes to strike out in any direc
 
 
 
-#
+# 
+
+
+
+
+1Share
 
 ---
 

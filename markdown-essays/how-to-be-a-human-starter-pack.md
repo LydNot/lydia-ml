@@ -5,7 +5,9 @@ category: "technology & society"
 source: "https://lydianottingham.substack.com/p/how-to-be-a-human-starter-pack"
 ---
 
-The premise:
+# 'How to be a Human' Starter Pack
+### exonymically christened
+![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13ef90da-3faf-45aa-92aa-d4be805df066_596x596.jpeg)Lydia NottinghamJul 05, 202562Share![https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29c0ae02-4cdb-4052-a67d-72f6896f8ac6_818x184.png](images/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29c0ae02-4cdb-4052-a67d-72f6896f8ac6_818x184.png)The premise:
 
 Unilaterally running events
 
@@ -42,6 +44,10 @@ What are some such activities you can think of: ~outward-facing habits that are 
 ¹I feel weird about exchange programs that mandate a return to country of origin. I’d like if the ‘giving back’ component could be replaced by reparations, equity, or mentorship instead, where genuinely commensurate.
 
 *This blogpost was written as part of One Big Beautiful Day!*
+
+
+
+62Share
 
 ---
 
