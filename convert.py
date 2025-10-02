@@ -57,11 +57,12 @@ def create_html_template(title, content, date=None, category=None, subtitle=None
         
         .essay-subtitle {{
             font-family: 'Inter', sans-serif;
-            font-size: 1rem;
-            font-weight: 400;
-            color: #666;
-            margin-bottom: 30px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 40px;
             font-style: italic;
+            text-align: center;
         }}
         
         .essay-body {{
@@ -161,8 +162,6 @@ def create_html_template(title, content, date=None, category=None, subtitle=None
         <a href="../index.html" class="back-link">← Back to home</a>
         
         <div class="essay-header">
-            <h1 class="essay-title">{title}</h1>
-            <div class="essay-meta">{date} • {reading_time} min read</div>
             {f'<div class="essay-subtitle">{subtitle}</div>' if subtitle else ''}
         </div>
         
