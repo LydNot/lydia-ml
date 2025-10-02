@@ -1,8 +1,7 @@
 # Netlify deployment configuration
-
 [build]
-  command = "python3 convert.py"
-  publish = "website-files"
+publish = "."
+# no build step; static site
 
 [build.environment]
   PYTHON_VERSION = "3.11"
