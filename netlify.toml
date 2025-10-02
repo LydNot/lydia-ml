@@ -1,6 +1,6 @@
 # Netlify deployment configuration
 [build]
-publish = "."
+publish = "website-files"
 # no build step; static site
 
 [build.environment]
