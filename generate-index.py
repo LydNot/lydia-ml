@@ -148,7 +148,7 @@ def generate_index():
 
         <!-- Introduction -->
         <section class="intro">
-            <p>hello! welcome to my site :D i'm a research engineer in san francisco, enrolled in mathphil. i care about the great present, good futures, & differential technological progress.</p>
+            <p>hello! welcome :) i'm a research engineer in san francisco, enrolled in mathphil. i care about the great present, good futures, & differential technological progress.</p>
         </section>
 
         <!-- Contact -->
