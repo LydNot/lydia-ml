@@ -156,7 +156,7 @@ Mathematical modelling, particularly phase plane analysis and Markov chains;
 Bridging artificial intelligence with the physical world;
 Unpretentiousness;
 Nondogmatism, thinking for oneself;
-Unrigorously dissolving philosophical problems;
+Dissolving problems;
 The anti-inductive & open-ended;
 Precision </p>
         </section>
