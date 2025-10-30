@@ -32,7 +32,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1a1a1a;
+    color: #e74c3c;
     letter-spacing: -0.02em;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .nav a {
-    color: #1a1a1a;
+    color: #2980b9;
     text-decoration: none;
     font-weight: 400;
     font-size: 1rem;
@@ -50,7 +50,7 @@ body {
 }
 
 .nav a:hover {
-    color: #666;
+    color: #e74c3c;
 }
 
 /* Decorative line */
@@ -116,7 +116,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #16a085;
     margin-bottom: 15px;
     margin-top: 30px;
     text-transform: lowercase;
@@ -149,16 +149,17 @@ body {
 .essay-list a {
     font-family: 'Crimson Text', Georgia, serif;
     font-size: 1rem;
-    color: #1a1a1a;
+    color: #2c3e50;
     text-decoration: underline;
     text-decoration-color: #ccc;
     text-underline-offset: 3px;
     line-height: 1.5;
-    transition: text-decoration-color 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .essay-list a:hover {
-    text-decoration-color: #666;
+    color: #3498db;
+    text-decoration-color: #3498db;
 }
 
 /* Sidebar */
