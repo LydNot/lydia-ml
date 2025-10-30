@@ -241,8 +241,14 @@
                     html += '</div>';
                     html += `<div class="essay-body">${data.content}</div>`;
                     
+                    // Add comments section
+                    html += '<div class="comments-section"><div class="giscus"></div></div>';
+                    
                     // Insert into page
                     document.getElementById('essay-container').innerHTML = html;
+                    
+                    // Load Giscus after content is rendered
+                    loadGiscusComments();
                 })
                 .catch(error => {
                     document.getElementById('essay-container').innerHTML = `
