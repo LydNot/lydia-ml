@@ -38,3 +38,27 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-29 19:40:16
 
 📝 Changes detected...
+[main 7b43c08] Auto-deploy: 2025-10-29 19:40:21
+ 17 files changed, 120 insertions(+)
+ create mode 100644 content/9030-ml-reading-group-retrospective.json
+ create mode 100644 content/against-one-way-streets.json
+ create mode 100644 content/amusing-labels-in-the-jiminy-cricket-environments.json
+ create mode 100644 content/astronomical-waste--conscientious-objection-.json
+ create mode 100644 content/avocado-experiment.json
+ create mode 100644 content/beware-the-delmore-effect-.json
+ create mode 100644 content/gpt-5-livestream-notes.json
+ create mode 100644 content/how-to-be-a-human-starter-pack.json
+ create mode 100644 content/no-taxicab-fallacy-for-knowledge-workers.json
+ create mode 100644 content/not-buying-a-chinese-agibot.json
+ create mode 100644 content/on-patience.json
+ create mode 100644 content/peripatetic-7-ludic-5-corollary-8.json
+ create mode 100644 content/start-of-substack.json
+ create mode 100644 content/sullivans-travels--throwing-it-all-away.json
+ create mode 100644 content/the-box-shop.json
+ create mode 100644 content/update-re-spontaneous-instantiation.json
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   b82b5b0..7b43c08  main -> main
+✅ Deployed at 2025-10-29 19:40:21
+
+📝 Changes detected...
