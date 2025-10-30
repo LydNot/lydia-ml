@@ -233,22 +233,23 @@ body {
 .email-input {
     flex: 1;
     padding: 10px 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #2d4a6e;
     border-radius: 3px;
     font-size: 0.9rem;
-    background-color: #fff;
+    background-color: #0f2541;
+    color: #ffffff;
     font-family: inherit;
 }
 
 .email-input:focus {
     outline: none;
-    border-color: #999;
+    border-color: #60a5fa;
 }
 
 .subscribe-btn {
     padding: 10px 20px;
-    background-color: #1a1a1a;
-    color: white;
+    background-color: #60a5fa;
+    color: #0a1628;
     border: none;
     border-radius: 3px;
     font-size: 0.9rem;
