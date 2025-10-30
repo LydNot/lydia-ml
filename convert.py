@@ -218,11 +218,15 @@ def parse_markdown_file(file_path):
     # Remove the subtitle (h3) from content since we'll add it to header
     content = re.sub(r'^### .+$\n', '', content, flags=re.MULTILINE)
     
-    # Remove avatar image and author info (more comprehensive patterns)
-    content = re.sub(r'^\[!\[.*?\]\(.*?\)\]\(.*?\)\n', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^\[.*?\]\(.*?\)\n', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^\[!\[.*?\]\(.*?\)\]\(.*?\)', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^\[.*?\]\(.*?\)', '', content, flags=re.MULTILINE)
+    # Remove avatar image (first image that links to author profile)
+    content = re.sub(r'^\[!\[.*?avatar.*?\]\(.*?\)\]\(.*?substack\.com/@.*?\)\s*$', '', content, flags=re.MULTILINE | re.IGNORECASE)
+    
+    # Remove author name links (just the link, not all links)
+    content = re.sub(r'^\[.*?\]\(https://substack\.com/@.*?\)\s*$', '', content, flags=re.MULTILINE)
+    
+    # Convert linked images to simple images (unwrap from external links)
+    # Pattern: [![alt](image-path)](external-link) -> ![alt](image-path)
+    content = re.sub(r'\[!\[(.*?)\]\((images/[^)]+)\)\]\([^)]+\)', r'![\1](\2)', content)
     
     # Remove duplicate dates (more comprehensive patterns)
     content = re.sub(r'^[A-Za-z]{3,9} \d{1,2}, \d{4}\s*$', '', content, flags=re.MULTILINE)
