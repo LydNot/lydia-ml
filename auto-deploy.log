@@ -20,3 +20,12 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-29 20:19:21
 
 📝 Changes detected...
+[main bda6f05] Auto-deploy: 2025-10-29 20:20:03
+ 2 files changed, 180 insertions(+)
+ create mode 100644 substack-import.py
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   d28241e..bda6f05  main -> main
+✅ Deployed at 2025-10-29 20:20:03
+
+📝 Changes detected...
