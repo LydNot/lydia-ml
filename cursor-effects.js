@@ -25,18 +25,19 @@
         constructor(x, y) {
             this.x = x;
             this.y = y;
-            this.size = Math.random() * 5 + 2;
+            this.size = Math.random() * 6 + 3;
             this.speedX = Math.random() * 3 - 1.5;
             this.speedY = Math.random() * 3 - 1.5;
             this.life = 1;
-            this.decay = Math.random() * 0.02 + 0.01;
+            this.decay = Math.random() * 0.015 + 0.008;
             
-            // Random purple/blue colors
+            // Brighter purple/blue colors
             const colors = [
-                { r: 139, g: 92, b: 246 },   // #8b5cf6
-                { r: 167, g: 139, b: 250 },  // #a78bfa
-                { r: 196, g: 181, b: 253 },  // #c4b5fd
-                { r: 129, g: 140, b: 248 },  // #818cf8
+                { r: 180, g: 130, b: 255 },  // Brighter purple
+                { r: 200, g: 160, b: 255 },  // Brighter light purple
+                { r: 220, g: 200, b: 255 },  // Brighter lighter purple
+                { r: 160, g: 170, b: 255 },  // Brighter blue-purple
+                { r: 255, g: 150, b: 255 },  // Bright magenta-purple
             ];
             this.color = colors[Math.floor(Math.random() * colors.length)];
         }
