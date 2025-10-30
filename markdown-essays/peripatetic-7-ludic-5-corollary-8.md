@@ -3,6 +3,7 @@ title: "peripatetic: 7; ludic: 5; corollary: 8"
 date: "April 30, 2025"
 category: "technology & society"
 source: "https://lydianottingham.substack.com/p/peripatetic-7-ludic-5-corollary-8"
+preview_image: "https://substackcdn.com/image/fetch/$s_!GBxk!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59580399-1878-45f1-a395-4ea9174a1351_339x1595.webp"
 ---
 
 # peripatetic: 7; ludic: 5; corollary: 8

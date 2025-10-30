@@ -3,6 +3,7 @@ title: "The Box Shop"
 date: "April 15, 2025"
 category: "writing"
 source: "https://lydianottingham.substack.com/p/the-box-shop"
+preview_image: "https://substackcdn.com/image/fetch/$s_!4B5K!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3e3c5dc-a1af-49be-8bbc-c8a1797d65ee_1051x566.png"
 ---
 
 # The Box Shop

@@ -3,6 +3,7 @@ title: "Sullivan's Travels & 'throwing it all away'"
 date: "April 21, 2025"
 category: "writing"
 source: "https://lydianottingham.substack.com/p/sullivans-travels-and-throwing-it"
+preview_image: "https://substackcdn.com/image/fetch/$s_!RuQp!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F392184a1-bb6d-4780-b537-87bbd2b52d47_210x300.jpeg"
 ---
 
 # Sullivan's Travels & 'throwing it all away'
