@@ -159,3 +159,27 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-29 19:41:48
 
 📝 Changes detected...
+[main ea6bb2d] Auto-deploy: 2025-10-29 19:42:07
+ 17 files changed, 8 insertions(+)
+ rename website-files/{ => content}/9030-ml-reading-group-retrospective.json (100%)
+ rename website-files/{ => content}/against-one-way-streets.json (100%)
+ rename website-files/{ => content}/amusing-labels-in-the-jiminy-cricket-environments.json (100%)
+ rename website-files/{ => content}/astronomical-waste--conscientious-objection-.json (100%)
+ rename website-files/{ => content}/avocado-experiment.json (100%)
+ rename website-files/{ => content}/beware-the-delmore-effect-.json (100%)
+ rename website-files/{ => content}/gpt-5-livestream-notes.json (100%)
+ rename website-files/{ => content}/how-to-be-a-human-starter-pack.json (100%)
+ rename website-files/{ => content}/no-taxicab-fallacy-for-knowledge-workers.json (100%)
+ rename website-files/{ => content}/not-buying-a-chinese-agibot.json (100%)
+ rename website-files/{ => content}/on-patience.json (100%)
+ rename website-files/{ => content}/peripatetic-7-ludic-5-corollary-8.json (100%)
+ rename website-files/{ => content}/start-of-substack.json (100%)
+ rename website-files/{ => content}/sullivans-travels--throwing-it-all-away.json (100%)
+ rename website-files/{ => content}/the-box-shop.json (100%)
+ rename website-files/{ => content}/update-re-spontaneous-instantiation.json (100%)
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   2a756a9..ea6bb2d  main -> main
+✅ Deployed at 2025-10-29 19:42:07
+
+📝 Changes detected...
