@@ -239,19 +239,6 @@
                         html += `<div class="essay-subtitle">${data.subtitle}</div>`;
                     }
                     html += '</div>';
-                    
-                    // Add preview image if available AND not already in content
-                    if (data.preview_image) {
-                        // Extract the image ID from the preview URL to check if it's in the content
-                        const imageId = data.preview_image.match(/images\/([a-f0-9-]+)/);
-                        const imageInContent = imageId && data.content.includes(imageId[1]);
-                        
-                        // Only show preview if it's not already in the post body
-                        if (!imageInContent) {
-                            html += `<img src="${data.preview_image}" alt="${data.title}" class="essay-preview-image">`;
-                        }
-                    }
-                    
                     html += `<div class="essay-body">${data.content}</div>`;
                     
                     // Insert into page
