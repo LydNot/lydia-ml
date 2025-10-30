@@ -78,10 +78,22 @@ def generate_category_html(categories):
     
     return '\n'.join(html)
 
+def generate_recent_html(num_posts=5):
+    """Generate HTML for recent posts sidebar"""
+    posts = get_all_posts_with_dates()[:num_posts]
+    
+    html = []
+    for post in posts:
+        date_formatted = format_date_for_sidebar(post['date'])
+        html.append(f'                        <li><span class="date">{date_formatted}</span> <a href="essay.html?post={post["slug"]}">{post["title"]}</a></li>')
+    
+    return '\n'.join(html)
+
 def generate_index():
     """Generate complete index.html"""
     categories = load_categories()
     category_html = generate_category_html(categories)
+    recent_html = generate_recent_html()
     
     html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -132,11 +144,7 @@ def generate_index():
                 <div class="sidebar-box">
                     <h3>Recent</h3>
                     <ul class="recent-list">
-                        <li><span class="date">Dec 15</span> <a href="essay.html?post=gpt-5-livestream-notes">GPT-5 Livestream Notes</a></li>
-                        <li><span class="date">Dec 8</span> <a href="essay.html?post=astronomical-waste--conscientious-objection-">Astronomical Waste & Conscientious Objection</a></li>
-                        <li><span class="date">Nov 28</span> <a href="essay.html?post=amusing-labels-in-the-jiminy-cricket-environments">Amusing Labels in the Jiminy Cricket Environments</a></li>
-                        <li><span class="date">Nov 15</span> <a href="essay.html?post=how-to-be-a-human-starter-pack">How to be a Human Starter Pack</a></li>
-                        <li><span class="date">Oct 30</span> <a href="essay.html?post=9030-ml-reading-group-retrospective">90/30 ML Reading Group: Retrospective</a></li>
+{recent_html}
                     </ul>
                 </div>
 
