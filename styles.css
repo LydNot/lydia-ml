@@ -107,14 +107,14 @@ body {
 }
 
 .contact-info a {
-    color: #60a5fa;
+    color: #a78bfa;
     text-decoration: none;
     text-underline-offset: 3px;
     transition: color 0.2s ease;
 }
 
 .contact-info a:hover {
-    color: #93c5fd;
+    color: #c4b5fd;
 }
 
 /* Essay categories */
