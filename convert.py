@@ -283,6 +283,7 @@ def parse_markdown_file(file_path):
         'date': frontmatter.get('date', ''),
         'category': frontmatter.get('category', ''),
         'subtitle': subtitle,
+        'preview_image': frontmatter.get('preview_image', ''),
         'filename': Path(file_path).stem
     }
 
