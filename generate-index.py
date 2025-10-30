@@ -201,12 +201,6 @@ def generate_index():
         <!-- Header -->
         <header class="header">
             <h1 class="site-title">LYDIA</h1>
-            <nav class="nav">
-                <a href="#about">About</a>
-                <a href="#essays">Essays</a>
-                <a href="#contact">Contact</a>
-                <a href="#archive">Archive</a>
-            </nav>
         </header>
 
         <!-- Introduction -->
