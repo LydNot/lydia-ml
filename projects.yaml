@@ -1,0 +1,22 @@
+# Projects configuration
+# Add your projects here with title, description, image, link, and optional webpage
+
+projects:
+  - title: "[orchard]"
+    description: "Your description here"
+    image: ""  # Path to image in images/ folder, e.g., "images/orchard.png"
+    link: ""  # External link (GitHub, website, etc.)
+    webpage: ""  # Optional: internal page, e.g., "orchard.html"
+    
+  - title: "90/30 ML Reading Group"
+    description: "A reading group focused on machine learning papers and research"
+    image: ""
+    link: ""
+    webpage: ""
+    
+  - title: "FHI Paper Working Group"
+    description: "Collaborative research group on AI safety and alignment"
+    image: ""
+    link: ""
+    webpage: ""
+
