@@ -1108,3 +1108,13 @@ To https://github.com/LydNot/lydia-ml.git
 📝 Markdown files changed - running convert.py...
 ✅ Converted markdown to JSON
 📝 Changes detected...
+[main 152a940] Auto-deploy: 2025-10-30 00:56:42
+ 3 files changed, 10 insertions(+), 70 deletions(-)
+ delete mode 100644 content/astronomical-waste-conscientious-objection.json
+ delete mode 100644 markdown-essays/astronomical-waste-conscientious-objection.md
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   1403c8d..152a940  main -> main
+✅ Deployed at 2025-10-30 00:56:42
+
+📝 Changes detected...
