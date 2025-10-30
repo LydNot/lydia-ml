@@ -497,3 +497,12 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-30 00:27:54
 
 📝 Changes detected...
+[main 06b3446] Auto-deploy: 2025-10-30 00:27:57
+ 2 files changed, 61 insertions(+)
+ create mode 100644 .github/workflows/convert-markdown.yml
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   fd2220a..06b3446  main -> main
+✅ Deployed at 2025-10-30 00:27:57
+
+📝 Changes detected...
