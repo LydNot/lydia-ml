@@ -113,7 +113,23 @@ lydia.ml/
 - **Branch:** `main`
 - **Build:** No build step needed (static files)
 - **Deploy directory:** `website-files/`
-- **Auto-deploy:** Enabled via `auto-deploy.sh` (runs in background)
+
+### Automatic CI/CD (24/7)
+
+**GitHub Actions** handles automation in the cloud:
+- ⏰ **Hourly Substack imports** - runs every hour automatically
+- 📝 **Markdown conversion** - triggers when you push `.md` files
+- 🏗️ **Index regeneration** - updates homepage when categories change
+- 🚀 **Auto-commits** - pushes changes back to GitHub → triggers Netlify
+
+### Optional Local Auto-Deploy
+
+For instant local-to-GitHub sync while working:
+```bash
+# Start background auto-deploy (optional)
+./auto-deploy.sh &
+```
+This watches for local file changes and immediately pushes to GitHub. **Not required** - you can also just `git push` manually!
 
 ## License
 
