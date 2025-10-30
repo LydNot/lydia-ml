@@ -15,6 +15,15 @@ def load_categories():
     with open('categories.yaml', 'r') as f:
         return yaml.safe_load(f)
 
+def load_projects():
+    """Load projects configuration from YAML file"""
+    try:
+        with open('projects.yaml', 'r') as f:
+            data = yaml.safe_load(f)
+            return data.get('projects', [])
+    except FileNotFoundError:
+        return []
+
 def get_post_title(slug):
     """Get post title from JSON file"""
     json_path = f'content/{slug}.json'
