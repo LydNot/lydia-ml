@@ -259,7 +259,8 @@ def parse_markdown_file(file_path):
     content = re.sub(r'^\s*\[Share\]\([^)]*\)\s*$', '', content, flags=re.MULTILINE | re.IGNORECASE)
     content = re.sub(r'\[Share\]\([^)]*\)', '', content, flags=re.IGNORECASE)  # Also remove inline
     content = re.sub(r'^\s*\[\]\([^)]*\)\s*$', '', content, flags=re.MULTILINE)
-    content = re.sub(r'\[\]\([^)]*\)', '', content)  # Also remove inline empty links
+    # Remove inline empty links BUT NOT if preceded by ! (which would be an image)
+    content = re.sub(r'(?<!!)\[\]\([^)]*\)', '', content)  # Also remove inline empty links
     
     # Remove any lines with just whitespace after previous removals
     content = re.sub(r'^\s*$\n', '\n', content, flags=re.MULTILINE)
