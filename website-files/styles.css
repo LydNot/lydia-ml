@@ -8,8 +8,8 @@
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
-    color: #1a1a1a;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #0a1628;
     font-size: 16px;
 }
 
@@ -32,7 +32,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #e74c3c;
+    color: #ffffff;
     letter-spacing: -0.02em;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .nav a {
-    color: #2980b9;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 400;
     font-size: 1rem;
@@ -50,7 +50,7 @@ body {
 }
 
 .nav a:hover {
-    color: #e74c3c;
+    color: #60a5fa;
 }
 
 /* Decorative line */
@@ -92,19 +92,18 @@ body {
 
 .contact-info p {
     font-size: 1rem;
-    color: #666;
+    color: #ffffff;
 }
 
 .contact-info a {
-    color: #1a1a1a;
-    text-decoration: underline;
-    text-decoration-color: #ccc;
+    color: #60a5fa;
+    text-decoration: none;
     text-underline-offset: 3px;
-    transition: text-decoration-color 0.2s ease;
+    transition: color 0.2s ease;
 }
 
 .contact-info a:hover {
-    text-decoration-color: #666;
+    color: #93c5fd;
 }
 
 /* Essay categories */
@@ -113,10 +112,10 @@ body {
 }
 
 .essay-categories h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Monaco', 'Courier New', monospace;
     font-size: 1.1rem;
-    font-weight: 600;
-    color: #16a085;
+    font-weight: 400;
+    color: #60a5fa;
     margin-bottom: 15px;
     margin-top: 30px;
     text-transform: lowercase;
@@ -149,17 +148,15 @@ body {
 .essay-list a {
     font-family: 'Crimson Text', Georgia, serif;
     font-size: 1rem;
-    color: #2c3e50;
-    text-decoration: underline;
-    text-decoration-color: #ccc;
+    color: #ffffff;
+    text-decoration: none;
     text-underline-offset: 3px;
     line-height: 1.5;
     transition: all 0.2s ease;
 }
 
 .essay-list a:hover {
-    color: #3498db;
-    text-decoration-color: #3498db;
+    color: #60a5fa;
 }
 
 /* Sidebar */
@@ -170,17 +167,17 @@ body {
 }
 
 .sidebar-box {
-    border: 1px solid #e6e6e6;
+    border: 1px solid #2d4a6e;
     border-radius: 4px;
     padding: 25px;
-    background-color: #fafafa;
+    background-color: transparent;
 }
 
 .sidebar-box h3 {
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #ffffff;
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 0.01em;
@@ -194,35 +191,35 @@ body {
     margin-bottom: 12px;
     font-size: 0.9rem;
     line-height: 1.4;
+    color: #ffffff;
 }
 
 .date {
-    color: #666;
+    color: #94a3b8;
     font-size: 0.85rem;
     margin-right: 8px;
     font-weight: 400;
 }
 
 .recent-list a {
-    color: #1a1a1a;
-    text-decoration: underline;
-    text-decoration-color: #ccc;
+    color: #ffffff;
+    text-decoration: none;
     text-underline-offset: 2px;
-    transition: text-decoration-color 0.2s ease;
+    transition: color 0.2s ease;
 }
 
 .recent-list a:hover {
-    text-decoration-color: #666;
+    color: #60a5fa;
 }
 
 /* Newsletter */
 .newsletter {
-    background-color: #f8f8f8;
+    background-color: transparent;
 }
 
 .subscriber-count {
     font-size: 0.9rem;
-    color: #666;
+    color: #94a3b8;
     margin-bottom: 15px;
 }
 
@@ -235,22 +232,23 @@ body {
 .email-input {
     flex: 1;
     padding: 10px 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #2d4a6e;
     border-radius: 3px;
     font-size: 0.9rem;
-    background-color: #fff;
+    background-color: #0f2541;
+    color: #ffffff;
     font-family: inherit;
 }
 
 .email-input:focus {
     outline: none;
-    border-color: #999;
+    border-color: #60a5fa;
 }
 
 .subscribe-btn {
     padding: 10px 20px;
-    background-color: #1a1a1a;
-    color: white;
+    background-color: #60a5fa;
+    color: #0a1628;
     border: none;
     border-radius: 3px;
     font-size: 0.9rem;
@@ -266,7 +264,7 @@ body {
 
 .disclaimer {
     font-size: 0.8rem;
-    color: #888;
+    color: #94a3b8;
     line-height: 1.4;
 }
 
