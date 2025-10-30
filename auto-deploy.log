@@ -70,3 +70,28 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-29 19:40:24
 
 📝 Changes detected...
+[main 7018ade] Auto-deploy: 2025-10-29 19:40:28
+ 18 files changed, 334 insertions(+)
+ create mode 100644 website-files/9030-ml-reading-group-retrospective.json
+ create mode 100644 website-files/against-one-way-streets.json
+ create mode 100644 website-files/amusing-labels-in-the-jiminy-cricket-environments.json
+ create mode 100644 website-files/astronomical-waste--conscientious-objection-.json
+ create mode 100644 website-files/avocado-experiment.json
+ create mode 100644 website-files/beware-the-delmore-effect-.json
+ create mode 100644 website-files/essay.html
+ create mode 100644 website-files/gpt-5-livestream-notes.json
+ create mode 100644 website-files/how-to-be-a-human-starter-pack.json
+ create mode 100644 website-files/no-taxicab-fallacy-for-knowledge-workers.json
+ create mode 100644 website-files/not-buying-a-chinese-agibot.json
+ create mode 100644 website-files/on-patience.json
+ create mode 100644 website-files/peripatetic-7-ludic-5-corollary-8.json
+ create mode 100644 website-files/start-of-substack.json
+ create mode 100644 website-files/sullivans-travels--throwing-it-all-away.json
+ create mode 100644 website-files/the-box-shop.json
+ create mode 100644 website-files/update-re-spontaneous-instantiation.json
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   15dc29a..7018ade  main -> main
+✅ Deployed at 2025-10-29 19:40:28
+
+📝 Changes detected...
