@@ -160,7 +160,8 @@ body::after {
 
 .contact-info {
     margin-bottom: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #8b5cf6;
 }
 
 .contact-info p {
