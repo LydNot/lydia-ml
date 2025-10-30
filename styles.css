@@ -215,12 +215,12 @@ body {
 
 /* Newsletter */
 .newsletter {
-    background-color: #f8f8f8;
+    background-color: transparent;
 }
 
 .subscriber-count {
     font-size: 0.9rem;
-    color: #666;
+    color: #94a3b8;
     margin-bottom: 15px;
 }
 
