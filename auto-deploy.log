@@ -48,3 +48,26 @@ To https://github.com/LydNot/lydia-ml.git
 📝 Markdown files changed - running convert.py...
 ✅ Converted markdown to JSON
 📝 Changes detected...
+[main a30fc56] Auto-deploy: 2025-10-29 20:20:43
+ 16 files changed, 460 insertions(+)
+ create mode 100644 content/astronomical-waste-conscientious-objection.json
+ create mode 100644 content/beware-the-delmore-effect.json
+ create mode 100644 content/field-notes-from-eag-nyc.json
+ create mode 100644 content/pay-for-results-not-failures.json
+ create mode 100644 content/sullivans-travels-throwing-it-all-away.json
+ create mode 100644 markdown-essays/astronomical-waste-conscientious-objection.md
+ create mode 100644 markdown-essays/beware-the-delmore-effect.md
+ create mode 100644 markdown-essays/field-notes-from-eag-nyc.md
+ create mode 100644 markdown-essays/pay-for-results-not-failures.md
+ create mode 100644 markdown-essays/sullivans-travels-throwing-it-all-away.md
+ create mode 100644 website-files/content/astronomical-waste-conscientious-objection.json
+ create mode 100644 website-files/content/beware-the-delmore-effect.json
+ create mode 100644 website-files/content/field-notes-from-eag-nyc.json
+ create mode 100644 website-files/content/pay-for-results-not-failures.json
+ create mode 100644 website-files/content/sullivans-travels-throwing-it-all-away.json
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   09a033e..a30fc56  main -> main
+✅ Deployed at 2025-10-29 20:20:43
+
+📝 Changes detected...
