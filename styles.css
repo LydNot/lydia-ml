@@ -203,15 +203,14 @@ body {
 }
 
 .recent-list a {
-    color: #1a1a1a;
-    text-decoration: underline;
-    text-decoration-color: #ccc;
+    color: #ffffff;
+    text-decoration: none;
     text-underline-offset: 2px;
-    transition: text-decoration-color 0.2s ease;
+    transition: color 0.2s ease;
 }
 
 .recent-list a:hover {
-    text-decoration-color: #666;
+    color: #60a5fa;
 }
 
 /* Newsletter */
