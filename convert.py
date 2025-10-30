@@ -220,11 +220,31 @@ def parse_markdown_file(file_path):
     if subtitle:
         content = content.replace(f'### {subtitle}\n', '', 1)
     
+    # Remove category tags at the top (e.g., [Arts](...), [AI / ML](...))
+    content = re.sub(r'^\[.*?\]\(https://[^)]*substack\.com/s/[^)]*\)\s*$', '', content, flags=re.MULTILINE)
+    
     # Remove avatar image (first image that links to author profile)
     content = re.sub(r'^\[!\[.*?avatar.*?\]\(.*?\)\]\(.*?substack\.com/@.*?\)\s*$', '', content, flags=re.MULTILINE | re.IGNORECASE)
     
     # Remove author name links (just the link, not all links)
     content = re.sub(r'^\[.*?\]\(https://substack\.com/@.*?\)\s*$', '', content, flags=re.MULTILINE)
+    
+    # Remove duplicate titles (second h1 heading)
+    first_h1_removed = False
+    lines = content.split('\n')
+    cleaned_lines = []
+    for line in lines:
+        if line.startswith('# ') and not first_h1_removed:
+            first_h1_removed = True
+            cleaned_lines.append(line)
+        elif line.startswith('# ') and first_h1_removed:
+            continue  # Skip duplicate h1
+        else:
+            cleaned_lines.append(line)
+    content = '\n'.join(cleaned_lines)
+    
+    # Remove empty subtitles like "### ."
+    content = re.sub(r'^###\s*[\.…]\s*$', '', content, flags=re.MULTILINE)
     
     # Convert linked images to simple images (unwrap from external links)
     # Pattern: [![alt](image-url)](link-url)caption -> ![caption or alt](image-url)
