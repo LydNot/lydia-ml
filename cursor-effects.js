@@ -51,12 +51,13 @@
         
         draw() {
             ctx.save();
-            ctx.globalAlpha = this.life;
+            ctx.globalAlpha = this.life * 0.9;
             
-            // Draw a glowing particle
+            // Draw a brighter glowing particle
             const gradient = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size);
             gradient.addColorStop(0, `rgba(${this.color.r}, ${this.color.g}, ${this.color.b}, 1)`);
-            gradient.addColorStop(0.5, `rgba(${this.color.r}, ${this.color.g}, ${this.color.b}, 0.5)`);
+            gradient.addColorStop(0.4, `rgba(${this.color.r}, ${this.color.g}, ${this.color.b}, 0.8)`);
+            gradient.addColorStop(0.7, `rgba(${this.color.r}, ${this.color.g}, ${this.color.b}, 0.4)`);
             gradient.addColorStop(1, `rgba(${this.color.r}, ${this.color.g}, ${this.color.b}, 0)`);
             
             ctx.fillStyle = gradient;
