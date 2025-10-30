@@ -240,3 +240,13 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-29 21:49:01
 
 📝 Changes detected...
+[main 43aac28] Auto-deploy: 2025-10-29 21:53:01
+ 1 file changed, 8 insertions(+)
+⬆️  Pushing to GitHub...
+fatal: unable to access 'https://github.com/LydNot/lydia-ml.git/': Could not resolve host: github.com
+✅ Deployed at 2025-10-29 21:53:01
+
+📰 Checking Substack for new posts...
+✨ No new posts to import
+
+📝 Changes detected...
