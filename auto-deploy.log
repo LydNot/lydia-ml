@@ -488,3 +488,12 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-30 00:27:44
 
 📝 Changes detected...
+[main fd2220a] Auto-deploy: 2025-10-30 00:27:54
+ 2 files changed, 63 insertions(+)
+ create mode 100644 .github/workflows/substack-import.yml
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   aeee60e..fd2220a  main -> main
+✅ Deployed at 2025-10-30 00:27:54
+
+📝 Changes detected...
