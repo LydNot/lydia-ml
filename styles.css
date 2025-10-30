@@ -84,22 +84,26 @@ body {
 
 .intro {
     margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #8b5cf6;
 }
 
 .intro p {
     font-size: 1.1rem;
     line-height: 1.7;
-    color: #333;
+    color: #cbd5e1;
     margin-bottom: 20px;
 }
 
 .contact-info {
     margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #8b5cf6;
 }
 
 .contact-info p {
     font-size: 1rem;
-    color: #ffffff;
+    color: #cbd5e1;
 }
 
 .contact-info a {
