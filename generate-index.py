@@ -115,7 +115,6 @@ def generate_index():
     """Generate complete index.html"""
     categories = load_categories()
     category_html = generate_category_html(categories)
-    recent_html = generate_recent_html()
     
     html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -141,41 +140,25 @@ def generate_index():
             </nav>
         </header>
 
-        <div class="main-content">
-            <!-- Left Column - Main Content -->
-            <div class="content-column">
-                <!-- Introduction -->
-                <section class="intro">
-                    <p>I write about AI, philosophy, and human flourishing.</p>
-                </section>
+        <!-- Introduction -->
+        <section class="intro">
+            <p>I write about AI, philosophy, and human flourishing.</p>
+        </section>
 
-                <!-- Contact -->
-                <section class="contact-info">
-                    <p><a href="mailto:hello@lydia.ml">hello@lydia.ml</a> • <a href="https://lydianottingham.substack.com/">Substack</a></p>
-                </section>
+        <!-- Contact -->
+        <section class="contact-info">
+            <p><a href="mailto:hello@lydia.ml">hello@lydia.ml</a> • <a href="https://lydianottingham.substack.com/">Substack</a></p>
+        </section>
 
-                <!-- Essay Categories -->
-                <section class="essay-categories">
+        <!-- Essay Categories -->
+        <section class="essay-categories">
 {category_html}
-                </section>
-            </div>
+        </section>
 
-            <!-- Right Column - Sidebar -->
-            <div class="sidebar">
-                <!-- Recent Posts -->
-                <div class="sidebar-box">
-                    <h3>Recent</h3>
-                    <ul class="recent-list">
-{recent_html}
-                    </ul>
-                </div>
-
-                <!-- Newsletter Signup -->
-                <div class="sidebar-box newsletter">
-                    <iframe src="https://lydianottingham.substack.com/embed" width="100%" height="320" style="border:1px solid #2d4a6e; background:#0a1628; border-radius: 8px;" frameborder="0" scrolling="no"></iframe>
-                </div>
-            </div>
-        </div>
+        <!-- Newsletter Signup at Bottom -->
+        <section class="newsletter-bottom">
+            <iframe src="https://lydianottingham.substack.com/embed" width="100%" height="320" style="border:1px solid #2d4a6e; background:#0a1628; border-radius: 8px;" frameborder="0" scrolling="no"></iframe>
+        </section>
     </div>
 </body>
 </html>'''
