@@ -996,3 +996,16 @@ To https://github.com/LydNot/lydia-ml.git
 📝 Markdown files changed - running convert.py...
 ✅ Converted markdown to JSON
 📝 Changes detected...
+[main c0ed177] Auto-deploy: 2025-10-30 00:56:05
+ 6 files changed, 10 insertions(+), 291 deletions(-)
+ delete mode 100644 markdown-essays/against-one-way-streets.md
+ delete mode 100644 markdown-essays/avocado-experiment.md
+ delete mode 100644 markdown-essays/field-notes-from-eag-nyc.md
+ delete mode 100644 markdown-essays/no-taxicab-fallacy-for-knowledge-workers.md
+ delete mode 100644 markdown-essays/the-box-shop.md
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   2203fa4..c0ed177  main -> main
+✅ Deployed at 2025-10-30 00:56:05
+
+📝 Changes detected...
