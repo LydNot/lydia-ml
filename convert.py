@@ -227,8 +227,10 @@ def parse_markdown_file(file_path):
     content = re.sub(r'^\[.*?\]\(https://substack\.com/@.*?\)\s*$', '', content, flags=re.MULTILINE)
     
     # Convert linked images to simple images (unwrap from external links)
-    # Pattern: [![alt](image-path)](external-link) -> ![alt](image-path)
+    # Pattern: [![alt](image-path)](external-link)caption -> ![caption](image-path)
     # Handle both local images/ paths and Substack CDN URLs
+    # Also handle images with captions after the link
+    content = re.sub(r'\[!\[.*?\]\((https://substackcdn\.com/[^)]+)\)\]\([^)]+\)([^\n]*)', r'![\2](\1)', content)
     content = re.sub(r'\[!\[(.*?)\]\((https://substackcdn\.com/[^)]+)\)\]\([^)]+\)', r'![\1](\2)', content)
     content = re.sub(r'\[!\[(.*?)\]\((images/[^)]+)\)\]\([^)]+\)', r'![\1](\2)', content)
     
