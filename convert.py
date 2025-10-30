@@ -228,6 +228,9 @@ def parse_markdown_file(file_path):
     # Pattern: [![alt](image-path)](external-link) -> ![alt](image-path)
     content = re.sub(r'\[!\[(.*?)\]\((images/[^)]+)\)\]\([^)]+\)', r'![\1](\2)', content)
     
+    # Remove any standalone closing parentheses left over from link removal
+    content = re.sub(r'^\s*\)\s*$', '', content, flags=re.MULTILINE)
+    
     # Remove duplicate dates (more comprehensive patterns)
     content = re.sub(r'^[A-Za-z]{3,9} \d{1,2}, \d{4}\s*$', '', content, flags=re.MULTILINE)
     content = re.sub(r'^\w{3,9} \d{1,2}, \d{4}\s*$', '', content, flags=re.MULTILINE)
