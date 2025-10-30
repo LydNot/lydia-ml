@@ -9,8 +9,12 @@ cd "$REPO_DIR"
 echo "🚀 Auto-deploy started for lydia.ml"
 echo "📁 Watching: $REPO_DIR"
 echo "🔄 Changes will be automatically committed and pushed to GitHub"
+echo "📰 Checking Substack for new posts every hour"
 echo "⚠️  Press Ctrl+C to stop"
 echo ""
+
+# Track last Substack check time
+LAST_SUBSTACK_CHECK=$(date +%s)
 
 # Function to commit and push changes
 commit_and_push() {
