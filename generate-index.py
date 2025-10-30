@@ -62,12 +62,12 @@ def format_date_for_sidebar(date_obj):
     return date_obj.strftime('%b %d')
 
 def generate_category_html(categories):
-    """Generate HTML for essay categories section with two columns"""
+    """Generate HTML for essay categories section with two columns (alternating)"""
     category_items = list(categories.items())
-    mid_point = (len(category_items) + 1) // 2  # Split into two columns
     
-    left_categories = category_items[:mid_point]
-    right_categories = category_items[mid_point:]
+    # Alternate: odd indices (0, 2, 4...) go left, even indices (1, 3, 5...) go right
+    left_categories = [cat for i, cat in enumerate(category_items) if i % 2 == 0]
+    right_categories = [cat for i, cat in enumerate(category_items) if i % 2 == 1]
     
     def generate_column(category_list):
         html = []
