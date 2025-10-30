@@ -1845,3 +1845,12 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-30 01:51:55
 
 📝 Changes detected...
+[main 39c70a0] Auto-deploy: 2025-10-30 01:52:11
+ 2 files changed, 8 insertions(+), 109 deletions(-)
+ delete mode 100644 fetch-preview-images.py
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   64aadad..39c70a0  main -> main
+✅ Deployed at 2025-10-30 01:52:11
+
+📝 Changes detected...
