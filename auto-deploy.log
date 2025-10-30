@@ -4,3 +4,12 @@
 ⚠️  Press Ctrl+C to stop
 
 📝 Changes detected...
+[main eb82111] Auto-deploy: 2025-10-29 19:32:13
+ 1 file changed, 6 insertions(+)
+ create mode 100644 auto-deploy.log
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   71388c7..eb82111  main -> main
+✅ Deployed at 2025-10-29 19:32:13
+
+📝 Changes detected...
