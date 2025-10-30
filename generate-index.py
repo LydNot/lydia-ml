@@ -149,18 +149,15 @@ def generate_index():
         <!-- Introduction -->
         <section class="intro">
             <p>hello! welcome to my site :D i like:
-America
-The phenomenon of grokking / phase transitions
-People / things with Markovian property
-Proactivity
-Have I mentioned I like America? I really like America.
-Musicals
-Mathematical modelling, particularly phase plane analysis and Markov chains
-Bridging artificial intelligence with the physical world
-Unpretentiousness
-Nondogmatism, thinking for oneself
-Unrigorously dissolving philosophical problems
-The anti-inductive & open-ended
+The phenomenon of grokking / phase transitions;
+People / things with Markovian property;
+Musicals;
+Mathematical modelling, particularly phase plane analysis and Markov chains;
+Bridging artificial intelligence with the physical world;
+Unpretentiousness;
+Nondogmatism, thinking for oneself;
+Unrigorously dissolving philosophical problems;
+The anti-inductive & open-ended;
 Precision </p>
         </section>
 
