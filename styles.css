@@ -363,7 +363,6 @@ body::after {
     text-transform: lowercase;
     letter-spacing: 0.05em;
     padding-bottom: 10px;
-    border-bottom: 2px solid #8b5cf6;
 }
 
 /* Projects section */
