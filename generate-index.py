@@ -126,6 +126,55 @@ def generate_recent_html(num_posts=5):
     
     return '\n'.join(html)
 
+def generate_projects_html(projects):
+    """Generate HTML for projects section with panel layout"""
+    if not projects:
+        return ''
+    
+    html = ['        <section class="projects-section">']
+    html.append('            <h2 class="section-title">projects</h2>')
+    html.append('            <div class="projects-grid">')
+    
+    for project in projects:
+        title = project.get('title', 'Untitled Project')
+        description = project.get('description', '')
+        image = project.get('image', '')
+        link = project.get('link', '')
+        webpage = project.get('webpage', '')
+        
+        html.append('                <div class="project-card">')
+        
+        # Image (if provided)
+        if image:
+            html.append(f'                    <div class="project-image">')
+            html.append(f'                        <img src="{image}" alt="{title}">')
+            html.append('                    </div>')
+        
+        html.append('                    <div class="project-content">')
+        html.append(f'                        <h3 class="project-title">{title}</h3>')
+        
+        if description:
+            html.append(f'                        <p class="project-description">{description}</p>')
+        
+        # Links
+        if link or webpage:
+            html.append('                        <div class="project-links">')
+            if webpage:
+                html.append(f'                            <a href="{webpage}" class="project-link">Learn More →</a>')
+            if link:
+                link_text = 'Visit' if webpage else 'Link'
+                html.append(f'                            <a href="{link}" class="project-link external" target="_blank" rel="noopener">{link_text} ↗</a>')
+            html.append('                        </div>')
+        
+        html.append('                    </div>')
+        html.append('                </div>')
+    
+    html.append('            </div>')
+    html.append('        </section>')
+    html.append('')
+    
+    return '\n'.join(html)
+
 def generate_index():
     """Generate complete index.html"""
     categories = load_categories()
