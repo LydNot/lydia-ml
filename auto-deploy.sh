@@ -16,9 +16,28 @@ echo ""
 # Track last Substack check time
 LAST_SUBSTACK_CHECK=$(date +%s)
 
+# Function to check for new Substack posts
+check_substack() {
+    cd "$REPO_DIR"
+    
+    CURRENT_TIME=$(date +%s)
+    TIME_DIFF=$((CURRENT_TIME - LAST_SUBSTACK_CHECK))
+    
+    # Check every hour (3600 seconds)
+    if [ $TIME_DIFF -ge 3600 ]; then
+        echo "📰 Checking Substack for new posts..."
+        python3 substack-import.py 2>&1 | grep -E "(Importing|Created|Imported|new posts)" || true
+        LAST_SUBSTACK_CHECK=$CURRENT_TIME
+        echo ""
+    fi
+}
+
 # Function to commit and push changes
 commit_and_push() {
     cd "$REPO_DIR"
+    
+    # Check for new Substack posts periodically
+    check_substack
     
     # Check if markdown files have changed
     if git status -s | grep -q "markdown-essays/.*\.md"; then
