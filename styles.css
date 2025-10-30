@@ -149,17 +149,15 @@ body {
 .essay-list a {
     font-family: 'Crimson Text', Georgia, serif;
     font-size: 1rem;
-    color: #2c3e50;
-    text-decoration: underline;
-    text-decoration-color: #ccc;
+    color: #ffffff;
+    text-decoration: none;
     text-underline-offset: 3px;
     line-height: 1.5;
     transition: all 0.2s ease;
 }
 
 .essay-list a:hover {
-    color: #3498db;
-    text-decoration-color: #3498db;
+    color: #60a5fa;
 }
 
 /* Sidebar */
