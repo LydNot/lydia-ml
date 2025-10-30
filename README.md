@@ -23,9 +23,26 @@ This site uses a **dynamic template system**:
 ### Adding/Editing Essays
 
 1. **Write/edit essay:** Edit `.md` files in `markdown-essays/`
-2. **Convert to JSON:** `python3 convert.py`
-3. **Update homepage (if new):** Add link in `index.html` like `essay.html?post=slug-name`
+2. **Convert to JSON:** `python3 convert.py` (or let auto-deploy do it!)
+3. **Organize in categories:** Edit `categories.yaml` to add to homepage
 4. **Auto-deploy:** Changes push to GitHub automatically via `auto-deploy.sh`
+
+### Organizing Categories
+
+**The easiest way to manage your homepage!**
+
+1. **Edit `categories.yaml`:** Simply add/remove post slugs under category names
+   ```yaml
+   personal favorites:
+     - astronomical-waste--conscientious-objection-
+     - not-buying-a-chinese-agibot
+   
+   ai & machine learning:
+     - field-notes-from-eag-nyc
+     - gpt-5-livestream-notes
+   ```
+2. **Regenerate index:** `python3 generate-index.py` (or let auto-deploy do it!)
+3. **Result:** Homepage updates with new organization!
 
 ### Changing Styling
 
