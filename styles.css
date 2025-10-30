@@ -149,7 +149,7 @@ body::after {
 .intro {
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: 2px solid #8b5cf6;
+
 }
 
 .intro p {
@@ -185,7 +185,6 @@ body::after {
 .essay-categories {
     margin-bottom: 40px;
     padding-bottom: 40px;
-    border-bottom: 2px solid #8b5cf6;
 }
 
 .essay-categories-grid {
