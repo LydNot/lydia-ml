@@ -228,6 +228,8 @@ def parse_markdown_file(file_path):
     
     # Convert linked images to simple images (unwrap from external links)
     # Pattern: [![alt](image-path)](external-link) -> ![alt](image-path)
+    # Handle both local images/ paths and Substack CDN URLs
+    content = re.sub(r'\[!\[(.*?)\]\((https://substackcdn\.com/[^)]+)\)\]\([^)]+\)', r'![\1](\2)', content)
     content = re.sub(r'\[!\[(.*?)\]\((images/[^)]+)\)\]\([^)]+\)', r'![\1](\2)', content)
     
     # Remove any standalone closing parentheses left over from link removal
