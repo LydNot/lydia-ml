@@ -32,7 +32,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1a1a1a;
+    color: #e74c3c;
     letter-spacing: -0.02em;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .nav a {
-    color: #1a1a1a;
+    color: #2980b9;
     text-decoration: none;
     font-weight: 400;
     font-size: 1rem;
@@ -50,7 +50,7 @@ body {
 }
 
 .nav a:hover {
-    color: #666;
+    color: #e74c3c;
 }
 
 /* Decorative line */
