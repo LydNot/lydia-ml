@@ -282,3 +282,12 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-30 00:13:30
 
 📝 Changes detected...
+[main a9b4c4c] Auto-deploy: 2025-10-30 00:20:49
+ 2 files changed, 42 insertions(+)
+ create mode 100644 categories.yaml
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   ca84408..a9b4c4c  main -> main
+✅ Deployed at 2025-10-30 00:20:49
+
+📝 Changes detected...
