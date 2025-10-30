@@ -8,6 +8,7 @@ import yaml
 import json
 import os
 from pathlib import Path
+from datetime import datetime
 
 def load_categories():
     """Load category configuration from YAML file"""
@@ -22,6 +23,43 @@ def get_post_title(slug):
             data = json.load(f)
             return data.get('title', slug)
     return slug
+
+def get_all_posts_with_dates():
+    """Get all posts from content directory with their dates"""
+    posts = []
+    content_dir = Path('content')
+    
+    for json_file in content_dir.glob('*.json'):
+        try:
+            with open(json_file, 'r') as f:
+                data = json.load(f)
+                slug = json_file.stem
+                title = data.get('title', slug)
+                date_str = data.get('date', '')
+                
+                if date_str:
+                    # Parse date like "October 14, 2025"
+                    try:
+                        date_obj = datetime.strptime(date_str, '%B %d, %Y')
+                        posts.append({
+                            'slug': slug,
+                            'title': title,
+                            'date': date_obj,
+                            'date_str': date_str
+                        })
+                    except ValueError:
+                        # If date parsing fails, skip this post
+                        pass
+        except (json.JSONDecodeError, FileNotFoundError):
+            continue
+    
+    # Sort by date, most recent first
+    posts.sort(key=lambda x: x['date'], reverse=True)
+    return posts
+
+def format_date_for_sidebar(date_obj):
+    """Format date as 'Dec 15' for sidebar"""
+    return date_obj.strftime('%b %d')
 
 def generate_category_html(categories):
     """Generate HTML for essay categories section"""
