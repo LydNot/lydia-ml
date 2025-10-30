@@ -356,6 +356,103 @@ body::after {
     line-height: 1.4;
 }
 
+/* Section title */
+.section-title {
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #818cf8;
+    margin: 40px 0 30px 0;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #8b5cf6;
+}
+
+/* Projects section */
+.projects-section {
+    margin: 60px 0 40px 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: rgba(139, 92, 246, 0.05);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: 8px;
+    padding: 25px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    background: rgba(139, 92, 246, 0.1);
+    border-color: rgba(139, 92, 246, 0.4);
+    transform: translateY(-2px);
+}
+
+.project-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #c4b5fd;
+    margin: 0;
+}
+
+.project-description {
+    font-family: 'Crimson Text', Georgia, serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin: 0;
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.project-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: #a78bfa;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #a78bfa;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.project-link:hover {
+    background: #a78bfa;
+    color: #0d1117;
+}
+
 /* Image styles */
 img {
     max-width: 60%;
