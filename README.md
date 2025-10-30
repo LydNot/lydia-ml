@@ -62,11 +62,14 @@ lydia.ml/
 │   ├── essay-1.json
 │   └── essay-2.json
 │
+├── categories.yaml         # 📂 Homepage organization (edit this!)
 ├── essay.html              # 🎨 Single template for all posts
-├── index.html              # 🏠 Homepage
+├── index.html              # 🏠 Homepage (auto-generated)
 ├── images/                 # 🖼️  Essay images
 │
 ├── convert.py              # ⚙️  Markdown → JSON converter
+├── generate-index.py       # 🏗️  Categories → index.html generator
+├── substack-import.py      # 📰 Auto-import from Substack RSS
 ├── auto-deploy.sh          # 🚀 Auto-push to GitHub on changes
 │
 └── website-files/          # 📦 Deployed to Netlify
@@ -98,7 +101,11 @@ lydia.ml/
    - Fetches `content/my-essay.json`
    - Injects content into the template
 
-4. **Auto-Deploy:** The `auto-deploy.sh` script watches for file changes and automatically pushes to GitHub, which triggers Netlify deployment
+4. **Auto-Deploy:** The `auto-deploy.sh` script watches for file changes and automatically:
+   - Converts markdown → JSON when `.md` files change
+   - Regenerates index.html when `categories.yaml` changes
+   - Imports new Substack posts hourly
+   - Pushes all changes to GitHub, triggering Netlify deployment
 
 ## Deployment
 
