@@ -37,3 +37,14 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-29 20:20:15
 
 📝 Changes detected...
+[main 09a033e] Auto-deploy: 2025-10-29 20:20:35
+ 2 files changed, 8 insertions(+)
+ mode change 100644 => 100755 substack-import.py
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   45f82c3..09a033e  main -> main
+✅ Deployed at 2025-10-29 20:20:35
+
+📝 Markdown files changed - running convert.py...
+✅ Converted markdown to JSON
+📝 Changes detected...
