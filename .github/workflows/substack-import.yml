@@ -1,0 +1,55 @@
+name: Import Substack Posts
+
+on:
+  schedule:
+    # Run every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          
+      - name: Import Substack posts
+        run: |
+          python3 substack-import.py
+          
+      - name: Convert markdown to JSON
+        run: |
+          python3 convert.py
+          
+      - name: Copy JSON to website-files
+        run: |
+          cp -r content/*.json website-files/content/ 2>/dev/null || true
+          
+      - name: Regenerate index if needed
+        run: |
+          python3 generate-index.py
+          
+      - name: Commit and push if changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add -A
+          
+          # Only commit if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-import: New Substack posts $(date '+%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "No new posts to import"
+          fi
+
