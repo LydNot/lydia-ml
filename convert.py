@@ -271,9 +271,20 @@ def parse_markdown_file(file_path):
     # Remove standalone numbers on their own line (reading times, etc.)
     content = re.sub(r'^\s*\d+\s*$', '', content, flags=re.MULTILINE)
     
-    # Remove comment count links like [2](url)
-    content = re.sub(r'^\s*\[\d+\]\([^)]*comments[^)]*\)\s*$', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^\s*\[\d+\]\([^)]+\)\s*$', '', content, flags=re.MULTILINE)
+    # Remove comment count links like [2](url) or [2](url)1
+    content = re.sub(r'^\s*\[\d+\]\([^)]*comments[^)]*\)\s*\d*\s*$', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\s*\[\d+\]\([^)]+\)\s*\d*\s*$', '', content, flags=re.MULTILINE)
+    
+    # Remove stray single digits or numbers at start/end after cleaning
+    content = content.strip()
+    lines = content.split('\n')
+    # Remove leading blank lines and standalone numbers at start
+    while lines and (not lines[0].strip() or lines[0].strip().isdigit()):
+        lines.pop(0)
+    # Remove trailing blank lines and standalone numbers at end
+    while lines and (not lines[-1].strip() or lines[-1].strip().isdigit()):
+        lines.pop()
+    content = '\n'.join(lines)
     
     # Remove Share links and empty links (case insensitive, more thorough)
     content = re.sub(r'^\s*\[Share\]\([^)]*\)\s*$', '', content, flags=re.MULTILINE | re.IGNORECASE)
