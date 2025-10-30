@@ -92,19 +92,18 @@ body {
 
 .contact-info p {
     font-size: 1rem;
-    color: #666;
+    color: #ffffff;
 }
 
 .contact-info a {
-    color: #1a1a1a;
-    text-decoration: underline;
-    text-decoration-color: #ccc;
+    color: #60a5fa;
+    text-decoration: none;
     text-underline-offset: 3px;
-    transition: text-decoration-color 0.2s ease;
+    transition: color 0.2s ease;
 }
 
 .contact-info a:hover {
-    text-decoration-color: #666;
+    color: #93c5fd;
 }
 
 /* Essay categories */
