@@ -149,6 +149,7 @@ body::after {
 .intro {
     margin-bottom: 30px;
     padding-bottom: 30px;
+    border-bottom: 2px solid #8b5cf6;
 }
 
 .intro p {
@@ -160,7 +161,8 @@ body::after {
 
 .contact-info {
     margin-bottom: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #8b5cf6;
 }
 
 .contact-info p {
@@ -182,7 +184,8 @@ body::after {
 /* Essay categories */
 .essay-categories {
     margin-bottom: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #8b5cf6;
 }
 
 .essay-categories-grid {
