@@ -227,11 +227,18 @@ def parse_markdown_file(file_path):
     content = re.sub(r'^\[.*?\]\(https://substack\.com/@.*?\)\s*$', '', content, flags=re.MULTILINE)
     
     # Convert linked images to simple images (unwrap from external links)
-    # Pattern: [![alt](image-path)](external-link)caption -> ![caption](image-path)
+    # Pattern: [![alt](image-url)](link-url)caption -> ![caption or alt](image-url)
     # Handle both local images/ paths and Substack CDN URLs
-    # Also handle images with captions after the link
-    content = re.sub(r'\[!\[.*?\]\((https://substackcdn\.com/[^)]+)\)\]\([^)]+\)([^\n]*)', r'![\2](\1)', content)
-    content = re.sub(r'\[!\[(.*?)\]\((https://substackcdn\.com/[^)]+)\)\]\([^)]+\)', r'![\1](\2)', content)
+    
+    # First handle Substack CDN images with optional captions
+    # Pattern: [![alt-text](substackcdn-url)](link-url)optional-caption
+    content = re.sub(
+        r'\[!\[(.*?)\]\((https://substackcdn\.com/image/fetch/[^)]+)\)\]\([^)]*\)([^\n]*)',
+        lambda m: f"![{m.group(3).strip() or m.group(1)}]({m.group(2)})",
+        content
+    )
+    
+    # Then handle local images/ paths  
     content = re.sub(r'\[!\[(.*?)\]\((images/[^)]+)\)\]\([^)]+\)', r'![\1](\2)', content)
     
     # Remove any standalone closing parentheses left over from link removal
