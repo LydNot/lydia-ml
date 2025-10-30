@@ -117,6 +117,30 @@ lydia.ml/
 ### Automatic CI/CD (24/7)
 
 **GitHub Actions** handles automation in the cloud:
+
+```
+┌─────────────────────────────────────────────┐
+│     GitHub Actions (Cloud - 24/7)          │
+├─────────────────────────────────────────────┤
+│  ⏰ Every hour:                             │
+│     → Import Substack posts                 │
+│     → Convert to JSON                       │
+│     → Push to GitHub                        │
+│                                             │
+│  📝 When you push .md files:                │
+│     → Convert to JSON                       │
+│     → Regenerate index                      │
+│     → Push updates                          │
+└─────────────────────────────────────────────┘
+                    ↓
+           ┌────────────────┐
+           │    Netlify     │  ← Auto-deploys
+           └────────────────┘
+                    ↓
+          lydia.ml is live! 🎉
+```
+
+Features:
 - ⏰ **Hourly Substack imports** - runs every hour automatically
 - 📝 **Markdown conversion** - triggers when you push `.md` files
 - 🏗️ **Index regeneration** - updates homepage when categories change
