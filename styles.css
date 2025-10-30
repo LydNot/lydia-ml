@@ -147,9 +147,8 @@ body::after {
 }
 
 .intro {
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-
+    margin-bottom: 10px;
+    padding-bottom: 0;
 }
 
 .intro p {
