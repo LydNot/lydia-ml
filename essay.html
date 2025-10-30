@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <style>
+        body {
+            background-color: #0a1628;
+            color: #ffffff;
+        }
+        
         .essay-content {
             max-width: 700px;
             margin: 0 auto;
@@ -23,13 +28,13 @@
             font-family: 'Inter', sans-serif;
             font-size: 2.2rem;
             font-weight: 600;
-            color: #2c3e50;
+            color: #ffffff;
             margin-bottom: 15px;
             line-height: 1.2;
         }
         
         .essay-meta {
-            color: #7f8c8d;
+            color: #94a3b8;
             font-size: 0.9rem;
             margin-bottom: 15px;
         }
@@ -38,7 +43,7 @@
             font-family: 'Inter', sans-serif;
             font-size: 1.2rem;
             font-weight: 500;
-            color: #e74c3c;
+            color: #60a5fa;
             margin-bottom: 40px;
             font-style: italic;
         }
@@ -47,14 +52,14 @@
             font-family: 'Crimson Text', Georgia, serif;
             font-size: 1.1rem;
             line-height: 1.7;
-            color: #333;
+            color: #e2e8f0;
         }
         
         .essay-body h2 {
             font-family: 'Inter', sans-serif;
             font-size: 1.4rem;
             font-weight: 600;
-            color: #2980b9;
+            color: #60a5fa;
             margin: 40px 0 20px 0;
         }
         
@@ -62,20 +67,20 @@
             font-family: 'Inter', sans-serif;
             font-size: 1.2rem;
             font-weight: 500;
-            color: #16a085;
+            color: #a78bfa;
             margin: 30px 0 15px 0;
         }
         
         .essay-body a {
-            color: #3498db;
+            color: #60a5fa;
             text-decoration: none;
-            border-bottom: 1px solid #3498db40;
+            border-bottom: 1px solid #60a5fa60;
             transition: all 0.2s ease;
         }
         
         .essay-body a:hover {
-            color: #2980b9;
-            border-bottom-color: #2980b9;
+            color: #93c5fd;
+            border-bottom-color: #93c5fd;
         }
         
         .essay-body p {
@@ -92,17 +97,17 @@
         }
         
         .essay-body blockquote {
-            border-left: 4px solid #9b59b6;
-            background-color: #f8f5fa;
+            border-left: 4px solid #a78bfa;
+            background-color: #1e293b;
             padding: 15px 20px;
             margin: 20px 0;
             font-style: italic;
-            color: #555;
+            color: #cbd5e1;
         }
         
         .essay-body code {
-            background-color: #fff3cd;
-            color: #856404;
+            background-color: #1e293b;
+            color: #fde047;
             padding: 2px 6px;
             border-radius: 3px;
             font-family: 'Monaco', 'Consolas', monospace;
@@ -110,8 +115,8 @@
         }
         
         .essay-body pre {
-            background-color: #2c3e50;
-            color: #ecf0f1;
+            background-color: #1e293b;
+            color: #e2e8f0;
             padding: 20px;
             border-radius: 5px;
             overflow-x: auto;
@@ -149,13 +154,21 @@
         .loading {
             text-align: center;
             padding: 60px 20px;
-            color: #666;
+            color: #94a3b8;
         }
         
         .error {
             text-align: center;
             padding: 60px 20px;
-            color: #d32f2f;
+            color: #f87171;
+        }
+        
+        .error h2 {
+            color: #f87171;
+        }
+        
+        .error a {
+            color: #60a5fa;
         }
         
         @media (max-width: 768px) {
