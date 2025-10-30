@@ -306,11 +306,12 @@ def convert_all_essays():
 
 def update_index_page(essays):
     """Update the index page with essay links"""
-    # This is a simple version - you could make it more sophisticated
-    print("\nTo update your index.html with new essays, manually add them to the appropriate categories.")
-    print("Here are your converted essays:")
+    print("\n💡 To add new essays to your homepage:")
+    print("   Edit index.html and add links like: essay.html?post=slug-name")
+    print("\n📝 Converted essays:")
     for essay in essays:
-        print(f"- {essay['title']} ({essay['filename']}.html)")
+        print(f"   - {essay['title']}")
+        print(f"     Link: essay.html?post={essay['filename']}")
 
 if __name__ == "__main__":
     print("Converting Markdown essays to HTML...")
