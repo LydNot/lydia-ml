@@ -4,7 +4,7 @@ Generate index.html from categories.yaml
 Usage: python3 generate-index.py
 """
 
-import yaml
+import pyyaml
 import json
 import os
 from pathlib import Path
