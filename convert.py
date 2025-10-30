@@ -313,6 +313,7 @@ def convert_all_essays():
             'date': essay_data['date'].strip('"'),
             'subtitle': essay_data['subtitle'] if essay_data['subtitle'] else None,
             'category': essay_data['category'].strip('"') if essay_data['category'] else None,
+            'preview_image': essay_data['preview_image'].strip('"') if essay_data['preview_image'] else None,
             'content': essay_data['content']
         }
         
