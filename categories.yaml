@@ -1,0 +1,34 @@
+# Edit this file to organize your essays into categories
+# Format: category name followed by list of post slugs
+
+personal favorites:
+  - astronomical-waste--conscientious-objection-
+  - not-buying-a-chinese-agibot
+  - beware-the-delmore-effect-
+
+popular:
+  - how-to-be-a-human-starter-pack
+  - astronomical-waste--conscientious-objection-
+
+ai & machine learning:
+  - field-notes-from-eag-nyc
+  - gpt-5-livestream-notes
+  - amusing-labels-in-the-jiminy-cricket-environments
+  - 9030-ml-reading-group-retrospective
+  - update-re-spontaneous-instantiation
+
+personal:
+  - on-patience
+
+media:
+  - sullivans-travels--throwing-it-all-away
+
+philosophy & ideas:
+  - against-one-way-streets
+  - no-taxicab-fallacy-for-knowledge-workers
+
+experiments & observations:
+  - avocado-experiment
+  - the-box-shop
+  - peripatetic-7-ludic-5-corollary-8
+
