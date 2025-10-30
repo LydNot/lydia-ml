@@ -148,17 +148,7 @@ def generate_index():
 
         <!-- Introduction -->
         <section class="intro">
-            <p>hello! welcome to my site :D i like:
-The phenomenon of grokking / phase transitions;
-People / things with Markovian property;
-Musicals;
-Mathematical modelling, particularly phase plane analysis and Markov chains;
-Bridging artificial intelligence with the physical world;
-Unpretentiousness;
-Nondogmatism, thinking for oneself;
-Dissolving problems;
-The anti-inductive & open-ended;
-Precision </p>
+            <p>hello! welcome to my site :D i'm a research engineer in san francisco, enrolled in mathematics & philosophy at oxford.</p>
         </section>
 
         <!-- Contact -->
