@@ -35,7 +35,7 @@ def slugify(title):
     return slug.strip('-')
 
 def fetch_post_content(url):
-    """Fetch full post content from Substack URL"""
+    """Fetch full post content and preview image from Substack URL"""
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
@@ -47,7 +47,21 @@ def fetch_post_content(url):
         
         if not article:
             print(f"⚠️  Could not find article content for {url}")
-            return None
+            return None, None
+        
+        # Extract preview/featured image from meta tags or article
+        preview_image = None
+        
+        # Try og:image meta tag first (most reliable)
+        og_image = soup.find('meta', property='og:image')
+        if og_image and og_image.get('content'):
+            preview_image = og_image['content']
+        
+        # Try twitter:image as fallback
+        if not preview_image:
+            twitter_image = soup.find('meta', attrs={'name': 'twitter:image'})
+            if twitter_image and twitter_image.get('content'):
+                preview_image = twitter_image['content']
         
         # Convert HTML to markdown
         h = html2text.HTML2Text()
@@ -58,11 +72,11 @@ def fetch_post_content(url):
         
         markdown_content = h.handle(str(article))
         
-        return markdown_content
+        return markdown_content, preview_image
         
     except Exception as e:
         print(f"❌ Error fetching {url}: {e}")
-        return None
+        return None, None
 
 def parse_date(date_str):
     """Parse date from RSS feed"""
