@@ -217,10 +217,13 @@ def generate_index():
             <p><a href="mailto:hello@lydia.ml">hello@lydia.ml</a> • <a href="https://lydianottingham.substack.com/">Substack</a></p>
         </section>
 
-        <!-- Essay Categories -->
+        <!-- Writing Section -->
+        <h2 class="section-title">writing</h2>
         <section class="essay-categories">
 {category_html}
         </section>
+
+{projects_html}
 
         <!-- Newsletter Signup at Bottom -->
         <section class="newsletter-bottom">
