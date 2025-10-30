@@ -1027,3 +1027,18 @@ To https://github.com/LydNot/lydia-ml.git
 📝 Markdown files changed - running convert.py...
 ✅ Converted markdown to JSON
 📝 Changes detected...
+[main ade8b59] Auto-deploy: 2025-10-30 00:56:14
+ 16 files changed, 447 insertions(+), 16 deletions(-)
+ create mode 100644 content/astronomical-waste-conscientious-objection.json
+ create mode 100644 markdown-essays/against-one-way-streets.md
+ create mode 100644 markdown-essays/astronomical-waste-conscientious-objection.md
+ create mode 100644 markdown-essays/avocado-experiment.md
+ create mode 100644 markdown-essays/field-notes-from-eag-nyc.md
+ create mode 100644 markdown-essays/no-taxicab-fallacy-for-knowledge-workers.md
+ create mode 100644 markdown-essays/the-box-shop.md
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   78adfce..ade8b59  main -> main
+✅ Deployed at 2025-10-30 00:56:14
+
+📝 Changes detected...
