@@ -336,6 +336,11 @@ img[alt*="avatar"] {
         gap: 40px;
     }
     
+    .essay-categories-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
     .sidebar {
         order: -1;
     }
