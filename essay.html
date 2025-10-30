@@ -239,6 +239,12 @@
                         html += `<div class="essay-subtitle">${data.subtitle}</div>`;
                     }
                     html += '</div>';
+                    
+                    // Add preview image if available
+                    if (data.preview_image) {
+                        html += `<img src="${data.preview_image}" alt="${data.title}" class="essay-preview-image">`;
+                    }
+                    
                     html += `<div class="essay-body">${data.content}</div>`;
                     
                     // Insert into page
