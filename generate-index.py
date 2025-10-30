@@ -150,13 +150,7 @@ def generate_index():
 
                 <!-- Newsletter Signup -->
                 <div class="sidebar-box newsletter">
-                    <h3>LYDIA ML</h3>
-                    <p class="subscriber-count">Join 1,200+ readers</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Type your email..." class="email-input">
-                        <button type="submit" class="subscribe-btn">Subscribe</button>
-                    </form>
-                    <p class="disclaimer">Weekly essays on ideas that matter. No spam, ever.</p>
+                    <iframe src="https://lydianottingham.substack.com/embed" width="100%" height="320" style="border:1px solid #2d4a6e; background:#0a1628; border-radius: 8px;" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
