@@ -39,6 +39,13 @@ commit_and_push() {
     # Check for new Substack posts periodically
     check_substack
     
+    # Check if categories.yaml has changed
+    if git status -s | grep -q "categories.yaml"; then
+        echo "📂 Categories changed - regenerating index.html..."
+        python3 generate-index.py
+        echo "✅ Regenerated index.html"
+    fi
+    
     # Check if markdown files have changed
     if git status -s | grep -q "markdown-essays/.*\.md"; then
         echo "📝 Markdown files changed - running convert.py..."
