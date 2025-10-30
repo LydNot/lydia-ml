@@ -314,10 +314,10 @@ def update_index_page(essays):
         print(f"     Link: essay.html?post={essay['filename']}")
 
 if __name__ == "__main__":
-    print("Converting Markdown essays to HTML...")
+    print("🔄 Converting Markdown essays to JSON...")
     essays = convert_all_essays()
     if essays:
         update_index_page(essays)
     else:
-        print("No markdown files found in markdown-essays/ directory.")
+        print("❌ No markdown files found in markdown-essays/ directory.")
         print("Create some .md files there and run this script again!")
