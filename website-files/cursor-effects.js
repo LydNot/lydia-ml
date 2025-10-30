@@ -31,13 +31,13 @@
             this.life = 1;
             this.decay = Math.random() * 0.015 + 0.008;
             
-            // Brighter purple/blue colors
+            // Light blue colors (matching header theme)
             const colors = [
-                { r: 180, g: 130, b: 255 },  // Brighter purple
-                { r: 200, g: 160, b: 255 },  // Brighter light purple
-                { r: 220, g: 200, b: 255 },  // Brighter lighter purple
-                { r: 160, g: 170, b: 255 },  // Brighter blue-purple
-                { r: 255, g: 150, b: 255 },  // Bright magenta-purple
+                { r: 125, g: 211, b: 252 },  // Sky blue #7dd3fc
+                { r: 56, g: 189, b: 248 },   // Bright blue #38bdf8
+                { r: 147, g: 197, b: 253 },  // Light blue #93c5fd
+                { r: 186, g: 230, b: 253 },  // Lighter blue #bae6fd
+                { r: 96, g: 165, b: 250 },   // Medium blue #60a5fa
             ];
             this.color = colors[Math.floor(Math.random() * colors.length)];
         }
