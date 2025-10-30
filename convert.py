@@ -205,7 +205,7 @@ def parse_markdown_file(file_path):
         else:
             title = Path(file_path).stem.replace('-', ' ').title()
     
-    # Extract subtitle from h3 heading
+    # Extract subtitle from h3 heading (only the first one, right after title)
     subtitle = None
     subtitle_match = re.search(r'^### (.+)$', content, re.MULTILINE)
     if subtitle_match:
@@ -213,10 +213,12 @@ def parse_markdown_file(file_path):
     
     # Clean up content by removing redundant elements
     # Remove the main title (h1) if it's duplicated
-    content = re.sub(r'^# .+$\n', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^# .+$\n', '', content, flags=re.MULTILINE, count=1)
     
-    # Remove the subtitle (h3) from content since we'll add it to header
-    content = re.sub(r'^### .+$\n', '', content, flags=re.MULTILINE)
+    # Remove ONLY the first subtitle (h3) from content since we'll add it to header
+    # This preserves other h3 headings that are actual content structure
+    if subtitle:
+        content = content.replace(f'### {subtitle}\n', '', 1)
     
     # Remove avatar image (first image that links to author profile)
     content = re.sub(r'^\[!\[.*?avatar.*?\]\(.*?\)\]\(.*?substack\.com/@.*?\)\s*$', '', content, flags=re.MULTILINE | re.IGNORECASE)
