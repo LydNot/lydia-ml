@@ -148,7 +148,7 @@ def generate_index():
 
         <!-- Introduction -->
         <section class="intro">
-            <p>I write about AI, philosophy, and human flourishing.</p>
+            <p>hello! welcome to my site :) to be populated...</p>
         </section>
 
         <!-- Contact -->
