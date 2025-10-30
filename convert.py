@@ -162,6 +162,8 @@ def create_html_template(title, content, date=None, category=None, subtitle=None
         <a href="../index.html" class="back-link">← Back to home</a>
         
         <div class="essay-header">
+            <h1 class="essay-title">{title}</h1>
+            {f'<div class="essay-meta">{date}</div>' if date else ''}
             {f'<div class="essay-subtitle">{subtitle}</div>' if subtitle else ''}
         </div>
         
@@ -222,26 +224,21 @@ def parse_markdown_file(file_path):
     content = re.sub(r'^\[.*?\]\(.*?\)', '', content, flags=re.MULTILINE)
     
     # Remove duplicate dates (more comprehensive patterns)
-    content = re.sub(r'^[A-Za-z]{3} \d{2}, \d{4}\n', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^[A-Za-z]{3} \d{2}, \d{4}', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^[A-Za-z]{3} \d{1,2}, \d{4}\n', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^[A-Za-z]{3} \d{1,2}, \d{4}', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^[A-Za-z]{3,9} \d{1,2}, \d{4}\s*$', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\w{3,9} \d{1,2}, \d{4}\s*$', '', content, flags=re.MULTILINE)
     
-    # Remove standalone numbers (more comprehensive)
-    content = re.sub(r'^\d+$\n', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^\d+$', '', content, flags=re.MULTILINE)
+    # Remove standalone numbers on their own line (reading times, etc.)
+    content = re.sub(r'^\s*\d+\s*$', '', content, flags=re.MULTILINE)
     
-    # Remove share links (more comprehensive patterns)
-    content = re.sub(r'^\[\d+\]\([^)]+\)\n', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^\[\d+\]\([^)]+\)', '', content, flags=re.MULTILINE)
+    # Remove comment count links like [2](url)
+    content = re.sub(r'^\s*\[\d+\]\([^)]*comments[^)]*\)\s*$', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^\s*\[\d+\]\([^)]+\)\s*$', '', content, flags=re.MULTILINE)
     
-    # Remove any remaining markdown links that are just numbers
-    content = re.sub(r'^\[\d+\]\([^)]*\)\n', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^\[\d+\]\([^)]*\)', '', content, flags=re.MULTILINE)
+    # Remove Share links
+    content = re.sub(r'^\s*\[Share\]\([^)]*\)\s*$', '', content, flags=re.MULTILINE)
     
-    # Remove any lines that are just numbers or dates
-    content = re.sub(r'^[A-Za-z]{3} \d{1,2}, \d{4}$', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^\d+$', '', content, flags=re.MULTILINE)
+    # Remove any lines with just whitespace after previous removals
+    content = re.sub(r'^\s*$\n', '\n', content, flags=re.MULTILINE)
     
     # Clean up extra blank lines
     content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
