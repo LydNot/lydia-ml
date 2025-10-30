@@ -259,6 +259,10 @@ def parse_markdown_file(file_path):
     md = markdown.Markdown(extensions=['extra', 'codehilite'])
     html_content = md.convert(content)
     
+    # Clean up stray HTML paragraphs with just closing parentheses
+    html_content = re.sub(r'<p>\s*\)\s*</p>', '', html_content)
+    html_content = re.sub(r'<p>\s*\(\s*</p>', '', html_content)
+    
     return {
         'title': title,
         'content': html_content,
