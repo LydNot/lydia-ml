@@ -149,7 +149,6 @@ body::after {
 .intro {
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: 2px solid #8b5cf6;
 }
 
 .intro p {
@@ -161,8 +160,7 @@ body::after {
 
 .contact-info {
     margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: 2px solid #8b5cf6;
+    padding-bottom: 10px;
 }
 
 .contact-info p {
@@ -184,8 +182,7 @@ body::after {
 /* Essay categories */
 .essay-categories {
     margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: 2px solid #8b5cf6;
+    padding-bottom: 20px;
 }
 
 .essay-categories-grid {
@@ -366,7 +363,6 @@ body::after {
     text-transform: lowercase;
     letter-spacing: 0.05em;
     padding-bottom: 10px;
-    border-bottom: 2px solid #8b5cf6;
 }
 
 /* Projects section */
