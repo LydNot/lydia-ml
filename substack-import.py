@@ -110,7 +110,7 @@ source: "{link}"
     if preview_image:
         frontmatter += f'preview_image: "{preview_image}"\n'
     
-    frontmatter += "---\n\n# {title}\n"
+    frontmatter += f"---\n\n# {title}\n"
     
     if subtitle:
         frontmatter += f"\n### {subtitle}\n"
