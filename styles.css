@@ -515,6 +515,11 @@ img[alt*="avatar"] {
         gap: 20px;
     }
     
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
     .sidebar {
         order: -1;
     }
