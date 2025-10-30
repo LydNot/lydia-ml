@@ -163,16 +163,19 @@ def import_new_posts():
         
         print(f"📝 Importing: {title}")
         
-        # Fetch full content
-        content = fetch_post_content(url)
+        # Fetch full content and preview image
+        content, preview_image = fetch_post_content(url)
         
         if not content:
             continue
         
         # Create markdown file
         try:
-            created_slug = create_markdown_file(entry, content)
-            print(f"✅ Created: {created_slug}.md")
+            created_slug = create_markdown_file(entry, content, preview_image)
+            if preview_image:
+                print(f"✅ Created: {created_slug}.md (with preview image)")
+            else:
+                print(f"✅ Created: {created_slug}.md")
             new_count += 1
         except Exception as e:
             print(f"❌ Error creating file for {title}: {e}")
