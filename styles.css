@@ -367,6 +367,13 @@ img[alt*="avatar"] {
     }
 }
 
+@media (max-width: 900px) {
+    .essay-categories-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
 @media (max-width: 480px) {
     .site-title {
         font-size: 1.8rem;
@@ -379,6 +386,11 @@ img[alt*="avatar"] {
     
     .sidebar-box {
         padding: 20px;
+    }
+    
+    .essay-categories-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
     
     .essay-categories h2 {
