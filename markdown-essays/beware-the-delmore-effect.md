@@ -3,6 +3,7 @@ title: "Beware the Delmore Effect"
 date: "June 09, 2025"
 category: "writing"
 source: "https://lydianottingham.substack.com/p/beware-the-delmore-effect"
+preview_image: "https://substackcdn.com/image/fetch/$s_!pJvv!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28232236-c200-43f1-8272-17104fa0fc00_1270x796.png"
 ---
 
 # Beware the Delmore Effect

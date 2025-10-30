@@ -3,6 +3,7 @@ title: "Amusing Labels in the Jiminy Cricket Environments"
 date: "July 26, 2025"
 category: "technology & society"
 source: "https://lydianottingham.substack.com/p/amusing-labels-in-the-jiminy-cricket"
+preview_image: "https://substackcdn.com/image/fetch/$s_!7e2Z!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfcbcb85-67ff-453a-bd50-9dedfd1626be_1836x781.png"
 ---
 
 # Amusing Labels in the Jiminy Cricket Environments

@@ -3,6 +3,7 @@ title: "Avocado Experiment"
 date: "April 10, 2025"
 category: "writing"
 source: "https://lydianottingham.substack.com/p/avocado-experiment"
+preview_image: "https://substackcdn.com/image/fetch/$s_!FcyH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa7cc1e3-ffab-4196-988e-f9be565dd290_600x279.webp"
 ---
 
 # Avocado Experiment

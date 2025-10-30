@@ -3,6 +3,7 @@ title: "Astronomical Waste & Conscientious Objection"
 date: "August 02, 2025"
 category: "writing"
 source: "https://lydianottingham.substack.com/p/astronomical-waste-and-conscientious"
+preview_image: "https://substackcdn.com/image/youtube/w_728,c_limit/Yj4H_-VOceM"
 ---
 
 # Astronomical Waste & Conscientious Objection
