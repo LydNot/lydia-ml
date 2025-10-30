@@ -180,8 +180,10 @@ def generate_index():
     categories = load_categories()
     category_html = generate_category_html(categories)
     
-    projects = load_projects()
-    projects_html = generate_projects_html(projects)
+    # Projects temporarily disabled - uncomment to re-enable
+    # projects = load_projects()
+    # projects_html = generate_projects_html(projects)
+    projects_html = ''  # Empty for now
     
     html = f'''<!DOCTYPE html>
 <html lang="en">
