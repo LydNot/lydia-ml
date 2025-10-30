@@ -62,12 +62,13 @@ def format_date_for_sidebar(date_obj):
     return date_obj.strftime('%b %d')
 
 def generate_category_html(categories):
-    """Generate HTML for essay categories section with two columns (alternating)"""
+    """Generate HTML for essay categories section with three columns (alternating)"""
     category_items = list(categories.items())
     
-    # Alternate: odd indices (0, 2, 4...) go left, even indices (1, 3, 5...) go right
-    left_categories = [cat for i, cat in enumerate(category_items) if i % 2 == 0]
-    right_categories = [cat for i, cat in enumerate(category_items) if i % 2 == 1]
+    # Distribute across 3 columns: 0,3,6... → col1, 1,4,7... → col2, 2,5,8... → col3
+    col1_categories = [cat for i, cat in enumerate(category_items) if i % 3 == 0]
+    col2_categories = [cat for i, cat in enumerate(category_items) if i % 3 == 1]
+    col3_categories = [cat for i, cat in enumerate(category_items) if i % 3 == 2]
     
     def generate_column(category_list):
         html = []
@@ -83,17 +84,22 @@ def generate_category_html(categories):
             html.append('')  # blank line between categories
         return '\n'.join(html)
     
-    # Build two-column layout
+    # Build three-column layout
     html = ['                    <div class="essay-categories-grid">']
     
-    # Left column
+    # Column 1
     html.append('                        <div class="category-column">')
-    html.append(generate_column(left_categories))
+    html.append(generate_column(col1_categories))
     html.append('                        </div>')
     
-    # Right column
+    # Column 2
     html.append('                        <div class="category-column">')
-    html.append(generate_column(right_categories))
+    html.append(generate_column(col2_categories))
+    html.append('                        </div>')
+    
+    # Column 3
+    html.append('                        <div class="category-column">')
+    html.append(generate_column(col3_categories))
     html.append('                        </div>')
     
     html.append('                    </div>')
