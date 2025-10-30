@@ -136,11 +136,11 @@ body {
     font-family: 'Monaco', 'Courier New', monospace;
     font-size: 1.1rem;
     font-weight: 400;
-    color: #60a5fa;
+    color: #818cf8;
     margin-bottom: 15px;
     margin-top: 30px;
     text-transform: lowercase;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.05em;
 }
 
 .essay-categories h2:first-child,
