@@ -101,11 +101,11 @@ lydia.ml/
    - Fetches `content/my-essay.json`
    - Injects content into the template
 
-4. **Auto-Deploy:** The `auto-deploy.sh` script watches for file changes and automatically:
-   - Converts markdown → JSON when `.md` files change
+4. **Auto-Deploy:** GitHub Actions automatically:
+   - Imports new Substack posts every hour (runs in cloud 24/7)
+   - Converts markdown → JSON when you push `.md` files
    - Regenerates index.html when `categories.yaml` changes
-   - Imports new Substack posts hourly
-   - Pushes all changes to GitHub, triggering Netlify deployment
+   - Triggers Netlify deployment on every commit
 
 ## Deployment
 
