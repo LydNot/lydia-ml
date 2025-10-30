@@ -1017,3 +1017,13 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-30 00:56:08
 
 📝 Changes detected...
+[main 78adfce] Auto-deploy: 2025-10-30 00:56:11
+ 1 file changed, 8 insertions(+)
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   7ddeda7..78adfce  main -> main
+✅ Deployed at 2025-10-30 00:56:11
+
+📝 Markdown files changed - running convert.py...
+✅ Converted markdown to JSON
+📝 Changes detected...
