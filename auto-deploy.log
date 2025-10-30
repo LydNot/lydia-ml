@@ -2930,3 +2930,12 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-30 03:28:12
 
 📝 Changes detected...
+[main ac65fd0] Auto-deploy: 2025-10-30 03:28:28
+ 2 files changed, 75 insertions(+)
+ create mode 100644 GISCUS-SETUP.md
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   ec5d828..ac65fd0  main -> main
+✅ Deployed at 2025-10-30 03:28:28
+
+📝 Changes detected...
