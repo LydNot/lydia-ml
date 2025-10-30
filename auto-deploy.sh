@@ -16,7 +16,18 @@ echo ""
 commit_and_push() {
     cd "$REPO_DIR"
     
-    # Check if there are any changes
+    # Check if markdown files have changed
+    if git status -s | grep -q "markdown-essays/.*\.md"; then
+        echo "📝 Markdown files changed - running convert.py..."
+        python3 convert.py > /dev/null 2>&1
+        
+        # Copy generated JSON to website-files
+        cp -r content/*.json website-files/content/ 2>/dev/null
+        
+        echo "✅ Converted markdown to JSON"
+    fi
+    
+    # Check if there are any changes to commit
     if [[ -n $(git status -s) ]]; then
         echo "📝 Changes detected..."
         
