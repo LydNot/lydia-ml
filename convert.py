@@ -259,9 +259,10 @@ def parse_markdown_file(file_path):
     }
 
 def convert_all_essays():
-    """Convert all markdown files to HTML"""
+    """Convert all markdown files to HTML and JSON"""
     markdown_dir = Path('markdown-essays')
     essays_dir = Path('essays')
+    content_dir = Path('content')
     
     if not markdown_dir.exists():
         print("Creating markdown-essays directory...")
@@ -269,6 +270,7 @@ def convert_all_essays():
         return
     
     essays_dir.mkdir(exist_ok=True)
+    content_dir.mkdir(exist_ok=True)
     
     converted_essays = []
     
@@ -276,6 +278,8 @@ def convert_all_essays():
         print(f"Converting {md_file.name}...")
         
         essay_data = parse_markdown_file(md_file)
+        
+        # Create standalone HTML file (backwards compatibility)
         html_content = create_html_template(
             essay_data['title'],
             essay_data['content'],
@@ -289,9 +293,24 @@ def convert_all_essays():
         with open(html_file, 'w', encoding='utf-8') as f:
             f.write(html_content)
         
+        # Create JSON file for dynamic loading
+        json_data = {
+            'title': essay_data['title'],
+            'date': essay_data['date'],
+            'subtitle': essay_data['subtitle'],
+            'category': essay_data['category'],
+            'content': essay_data['content']
+        }
+        
+        json_file = content_dir / f"{essay_data['filename']}.json"
+        with open(json_file, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, indent=2, ensure_ascii=False)
+        
         converted_essays.append(essay_data)
     
     print(f"\nConverted {len(converted_essays)} essays!")
+    print(f"  - Standalone HTML: essays/")
+    print(f"  - Dynamic JSON: content/")
     return converted_essays
 
 def update_index_page(essays):
