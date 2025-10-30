@@ -205,7 +205,7 @@ def generate_index():
 
         <!-- Introduction -->
         <section class="intro">
-            <p>i care about the great present, good futures, & differential technological progress. i research AI/ML in san francisco and read mathphil at oxford. </p>
+            <p>i care about the great present, good futures, & differential technological progress! i research AI/ML in san francisco and read mathphil at oxford. </p>
         </section>
 
         <!-- Contact -->
