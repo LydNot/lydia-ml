@@ -294,11 +294,12 @@ def convert_all_essays():
             f.write(html_content)
         
         # Create JSON file for dynamic loading
+        # Strip extra quotes from frontmatter values
         json_data = {
-            'title': essay_data['title'],
-            'date': essay_data['date'],
-            'subtitle': essay_data['subtitle'],
-            'category': essay_data['category'],
+            'title': essay_data['title'].strip('"'),
+            'date': essay_data['date'].strip('"'),
+            'subtitle': essay_data['subtitle'] if essay_data['subtitle'] else None,
+            'category': essay_data['category'].strip('"') if essay_data['category'] else None,
             'content': essay_data['content']
         }
         
