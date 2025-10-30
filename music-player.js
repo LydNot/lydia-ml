@@ -1,5 +1,16 @@
 // Welcome overlay with music player
 (function() {
+    // List of track IDs from your "site songs" playlist
+    // To add more: open each song in Spotify, copy the track ID from the URL
+    // URL format: https://open.spotify.com/track/TRACK_ID
+    const trackIds = [
+        '3n3Ppam7vgaVa1iaRUc9Lp',  // Example track
+        // Add more track IDs here - I'll help you populate this!
+    ];
+    
+    // Randomly select a track
+    const randomTrack = trackIds[Math.floor(Math.random() * trackIds.length)];
+    
     // Create welcome overlay
     const overlay = document.createElement('div');
     overlay.className = 'welcome-overlay';
@@ -21,9 +32,9 @@
         </div>
         <iframe 
             style="border-radius:12px" 
-            src="https://open.spotify.com/embed/playlist/6Wa6TIXcEwMry13bjo54rb?utm_source=generator" 
+            src="https://open.spotify.com/embed/track/${randomTrack}?utm_source=generator" 
             width="100%" 
-            height="352" 
+            height="152" 
             frameBorder="0" 
             allowfullscreen="" 
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
