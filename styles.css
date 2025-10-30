@@ -75,6 +75,13 @@ body {
     min-width: 0; /* Prevents grid overflow */
 }
 
+/* Newsletter at bottom */
+.newsletter-bottom {
+    max-width: 600px;
+    margin: 60px auto 80px auto;
+    padding: 0 20px;
+}
+
 .intro {
     margin-bottom: 30px;
 }
