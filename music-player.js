@@ -21,9 +21,9 @@
         </div>
         <iframe 
             style="border-radius:12px" 
-            src="https://open.spotify.com/embed/playlist/6Wa6TIXcEwMry13bjo54rb?utm_source=generator&theme=0&autoplay=1" 
+            src="https://open.spotify.com/embed/playlist/6Wa6TIXcEwMry13bjo54rb?utm_source=generator" 
             width="100%" 
-            height="152" 
+            height="352" 
             frameBorder="0" 
             allowfullscreen="" 
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
