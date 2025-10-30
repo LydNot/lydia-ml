@@ -62,19 +62,41 @@ def format_date_for_sidebar(date_obj):
     return date_obj.strftime('%b %d')
 
 def generate_category_html(categories):
-    """Generate HTML for essay categories section"""
-    html = []
+    """Generate HTML for essay categories section with two columns"""
+    category_items = list(categories.items())
+    mid_point = (len(category_items) + 1) // 2  # Split into two columns
     
-    for category, posts in categories.items():
-        html.append(f'                    <h2>{category}</h2>')
-        html.append('                    <ul class="essay-list">')
-        
-        for slug in posts:
-            title = get_post_title(slug)
-            html.append(f'                        <li><a href="essay.html?post={slug}">{title}</a></li>')
-        
-        html.append('                    </ul>')
-        html.append('')  # blank line between categories
+    left_categories = category_items[:mid_point]
+    right_categories = category_items[mid_point:]
+    
+    def generate_column(category_list):
+        html = []
+        for category, posts in category_list:
+            html.append(f'                        <h2>{category}</h2>')
+            html.append('                        <ul class="essay-list">')
+            
+            for slug in posts:
+                title = get_post_title(slug)
+                html.append(f'                            <li><a href="essay.html?post={slug}">{title}</a></li>')
+            
+            html.append('                        </ul>')
+            html.append('')  # blank line between categories
+        return '\n'.join(html)
+    
+    # Build two-column layout
+    html = ['                    <div class="essay-categories-grid">']
+    
+    # Left column
+    html.append('                        <div class="category-column">')
+    html.append(generate_column(left_categories))
+    html.append('                        </div>')
+    
+    # Right column
+    html.append('                        <div class="category-column">')
+    html.append(generate_column(right_categories))
+    html.append('                        </div>')
+    
+    html.append('                    </div>')
     
     return '\n'.join(html)
 
