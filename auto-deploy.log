@@ -383,3 +383,43 @@ To https://github.com/LydNot/lydia-ml.git
 ✅ Deployed at 2025-10-29 20:09:49
 
 📝 Changes detected...
+[main fef2141] Auto-deploy: 2025-10-29 20:11:15
+ 33 files changed, 8 insertions(+), 5646 deletions(-)
+ delete mode 100644 essays/9030-ml-reading-group-retrospective.html
+ delete mode 100644 essays/against-one-way-streets.html
+ delete mode 100644 essays/amusing-labels-in-the-jiminy-cricket-environments.html
+ delete mode 100644 essays/astronomical-waste--conscientious-objection-.html
+ delete mode 100644 essays/avocado-experiment.html
+ delete mode 100644 essays/beware-the-delmore-effect-.html
+ delete mode 100644 essays/gpt-5-livestream-notes.html
+ delete mode 100644 essays/how-to-be-a-human-starter-pack.html
+ delete mode 100644 essays/no-taxicab-fallacy-for-knowledge-workers.html
+ delete mode 100644 essays/not-buying-a-chinese-agibot.html
+ delete mode 100644 essays/on-patience.html
+ delete mode 100644 essays/peripatetic-7-ludic-5-corollary-8.html
+ delete mode 100644 essays/start-of-substack.html
+ delete mode 100644 essays/sullivans-travels--throwing-it-all-away.html
+ delete mode 100644 essays/the-box-shop.html
+ delete mode 100644 essays/update-re-spontaneous-instantiation.html
+ delete mode 100644 website-files/essays/9030-ml-reading-group-retrospective.html
+ delete mode 100644 website-files/essays/against-one-way-streets.html
+ delete mode 100644 website-files/essays/amusing-labels-in-the-jiminy-cricket-environments.html
+ delete mode 100644 website-files/essays/astronomical-waste--conscientious-objection-.html
+ delete mode 100644 website-files/essays/avocado-experiment.html
+ delete mode 100644 website-files/essays/beware-the-delmore-effect-.html
+ delete mode 100644 website-files/essays/gpt-5-livestream-notes.html
+ delete mode 100644 website-files/essays/how-to-be-a-human-starter-pack.html
+ delete mode 100644 website-files/essays/no-taxicab-fallacy-for-knowledge-workers.html
+ delete mode 100644 website-files/essays/not-buying-a-chinese-agibot.html
+ delete mode 100644 website-files/essays/on-patience.html
+ delete mode 100644 website-files/essays/peripatetic-7-ludic-5-corollary-8.html
+ delete mode 100644 website-files/essays/start-of-substack.html
+ delete mode 100644 website-files/essays/sullivans-travels--throwing-it-all-away.html
+ delete mode 100644 website-files/essays/the-box-shop.html
+ delete mode 100644 website-files/essays/update-re-spontaneous-instantiation.html
+⬆️  Pushing to GitHub...
+To https://github.com/LydNot/lydia-ml.git
+   2a8e652..fef2141  main -> main
+✅ Deployed at 2025-10-29 20:11:15
+
+📝 Changes detected...
