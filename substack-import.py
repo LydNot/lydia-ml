@@ -86,7 +86,7 @@ def parse_date(date_str):
     except:
         return datetime.now().strftime("%B %d, %Y")
 
-def create_markdown_file(entry, content):
+def create_markdown_file(entry, content, preview_image=None):
     """Create markdown file with frontmatter"""
     title = entry.get('title', 'Untitled')
     slug = slugify(title)
@@ -104,10 +104,13 @@ title: "{title}"
 date: "{date}"
 category: "writing"
 source: "{link}"
----
-
-# {title}
 """
+    
+    # Add preview image to frontmatter if available
+    if preview_image:
+        frontmatter += f'preview_image: "{preview_image}"\n'
+    
+    frontmatter += "---\n\n# {title}\n"
     
     if subtitle:
         frontmatter += f"\n### {subtitle}\n"
