@@ -33,7 +33,7 @@ Jun 08, 2025
 
 
 
-[![](https://substackcdn.com/image/fetch/$s_!IzfB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb76cbefa-e4f5-45ca-a027-3701591999bc_1272x465.png)](https://substackcdn.com/image/fetch/$s_!IzfB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb76cbefa-e4f5-45ca-a027-3701591999bc_1272x465.png)
+[![](images/against-one-way-streets_img_02.png)](https://substackcdn.com/image/fetch/$s_!IzfB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb76cbefa-e4f5-45ca-a027-3701591999bc_1272x465.png)
 
 Each of these represents a case where had I been more hypervigilant—had I read information that wasn’t in the smallprint, but was in the depths of other, non-linked webpages / other people’s experiences—I could’ve ended up in a better situation (£800 up, ‘Avocado Experiment’ suitably imageless). 
 
@@ -41,7 +41,7 @@ I claim it’s pretty bad when institutions set up these schemes. You take an ac
 
 Above all, institutions can avoid this through proactive transparency! When someone starts to take an irreversible action, tell them everything they might want to know upfront. If you didn’t tell them info you might reasonably have, try to restore the earlier checkpoint. This makes society higher-trust.
 
-[![](https://substackcdn.com/image/fetch/$s_!o9hO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0209995e-07b4-402b-8f17-cbc48fc283c7_883x272.png)](https://substackcdn.com/image/fetch/$s_!o9hO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0209995e-07b4-402b-8f17-cbc48fc283c7_883x272.png)
+[![](images/against-one-way-streets_img_03.png)](https://substackcdn.com/image/fetch/$s_!o9hO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0209995e-07b4-402b-8f17-cbc48fc283c7_883x272.png)
 
 2
 

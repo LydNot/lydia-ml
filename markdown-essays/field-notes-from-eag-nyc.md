@@ -47,7 +47,7 @@ I of course want to see more people defend 1. But if 2 is our only option—if �
 
 Some ‘Scientist AI’ co-authors I spoke to hadn’t read “[Why Tool AIs Want To Be Agent AIs](https://gwern.net/tool-ai)”, which informs a lot of my intuitions here.
 
-[![](https://substackcdn.com/image/fetch/$s_!BSPQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5426cb4-01fa-4c6a-8327-b77317259920_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!BSPQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5426cb4-01fa-4c6a-8327-b77317259920_1024x1024.png)which way, Scientist AI?
+[![](images/field-notes-from-eag-nyc_img_02.png)](https://substackcdn.com/image/fetch/$s_!BSPQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5426cb4-01fa-4c6a-8327-b77317259920_1024x1024.png)which way, Scientist AI?
 
 ### Activation Fatigue
 
