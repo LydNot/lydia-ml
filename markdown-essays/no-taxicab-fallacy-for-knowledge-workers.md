@@ -1,7 +1,7 @@
 ---
 title: "No taxicab fallacy for knowledge workers"
 date: "June 04, 2025"
-category: "writing"
+category: "living better"
 source: "https://lydianottingham.substack.com/p/no-taxicab-fallacy-for-knowledge"
 preview_image: "https://substackcdn.com/image/fetch/$s_!9S6g!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f54e66e-d244-4c7c-9079-2f83e52f00c3_724x543.jpeg"
 ---

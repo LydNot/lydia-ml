@@ -1,7 +1,7 @@
 ---
 title: "Against 'One-Way Streets'"
 date: "June 08, 2025"
-category: "writing"
+category: "living better"
 source: "https://lydianottingham.substack.com/p/against-one-way-street-hypervigilance"
 preview_image: "https://substackcdn.com/image/fetch/$s_!-4Gr!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa9ab501-70a0-4b10-9f83-99dac176d633_940x705.webp"
 ---

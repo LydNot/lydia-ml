@@ -1,7 +1,7 @@
 ---
 title: "'How to be a Human' Starter Pack"
 date: "July 05, 2025"
-category: "technology & society"
+category: "living better"
 source: "https://lydianottingham.substack.com/p/how-to-be-a-human-starter-pack"
 preview_image: "https://substackcdn.com/image/fetch/$s_!N1th!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F24d6fd0f-e440-4934-bc86-e12878daa7f0_970x212.png"
 ---

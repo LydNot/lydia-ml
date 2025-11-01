@@ -1,7 +1,7 @@
 ---
 title: "Pay for results, not failures"
 date: "October 01, 2025"
-category: "alternative living"
+category: "living better"
 source: "https://lydianottingham.substack.com/p/pay-for-results-not-failures"
 preview_image: "https://substackcdn.com/image/fetch/$s_!2WdB!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5edfb13a-2af7-499a-b5b2-55fd98403dca_716x364.png"
 ---
