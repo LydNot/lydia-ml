@@ -1,7 +1,7 @@
 ---
 title: "Start of Inkhaven!"
 date: "November 01, 2025"
-category: "personal"
+category: "experiments & observations"
 source: "https://lydianottingham.substack.com/p/start-of-inkhaven"
 preview_image: "https://substackcdn.com/image/fetch/$s_!B67s!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1da0c2f2-ea85-4ab9-87d9-6dda394ff2ec_1176x776.jpeg"
 ---
