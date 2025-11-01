@@ -8,36 +8,34 @@ preview_image: "https://substackcdn.com/image/fetch/$s_!2WdB!,w_1200,h_600,c_fil
 
 # Pay for results, not failures
 
-[Practical](https://lydianottingham.substack.com/s/practical/?utm_source=substack&utm_medium=menu)
-
-# Pay for results, not failures
-
 ### The executive function exchange market
 
-[![Lydia Nottingham's avatar](https://substackcdn.com/image/fetch/$s_!vtly!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00b9f6ba-3b98-4eab-af7a-8b677e3d2c62_1126x1126.jpeg)](https://substack.com/@lydianottingham)
+My friends keep coercing themselves to do things by saying they'll pay others if they fail.
 
-[Lydia Nottingham](https://substack.com/@lydianottingham)
+One of them sends $30 to BeeMinder whenever he's not home by 00:30. One is paying another $50 each day he hasn't done the items on his To Do list.
 
-Oct 01, 2025
+I can't imagine living like this—the guilt, the 'ugh field', the panic it'd create! I can't be throwing money into thin air (what would my grandparents think?).
 
-∙ Paid
+What I am willing to do, however, is pay for a service. And the service of ensuring I'm on track to sleep at some target time—tracking me down, convincing my brain whatever it's working on can wait for tomorrow, closing my laptop, pointedly pointing towards the stairwell—is one I'm perfectly willing to pay for, if it works.
 
-2
+In response to my midnight bounty, one housemate sent me a message—
 
-[](https://lydianottingham.substack.com/p/pay-for-results-not-failures/comments)
+for which I paid 10% of the bounty—
 
-[Share](javascript:void\(0\))
+and also reminded me to sleep IRL when I came in and had been chatting too long—for which I paid another 10% of the bounty.
 
-[![](images/pay-for-results-not-failures_img_02.png)](https://substackcdn.com/image/fetch/$s_!2WdB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5edfb13a-2af7-499a-b5b2-55fd98403dca_716x364.png)
+Why make your friends' incentives aligned with your failure? Of course you want to align your friends' incentives with your success!
 
-My friends keep coercing themselves to do things by saying they’ll pay others if they fail.
+A few caveats (explained upfront):
 
-## This post is for paid subscribers
+* Had I slept by 00:00 with no external intervention, and also not felt my setting the bounty had made any difference, I wouldn't have been obligated to pay out anything.
+* Had I maintained my sleep time from the previous nights—well past midnight—and not benefited at all from interventions—I likewise wouldn't have been obligated to pay out.
+* Fractional bounties exist for the space in between. They reward counterfactual interventions.
+* If I maintained my late sleep time, but felt I benefited from prompting to reflect / reconsider, I would've paid a fractional bounty.
 
-[Subscribe](https://lydianottingham.substack.com/subscribe?simple=true&next=https%3A%2F%2Flydianottingham.substack.com%2Fp%2Fpay-for-results-not-failures&utm_source=paywall&utm_medium=web&utm_content=174989661)
+I brought forward my sleep time from 3:00 to 00:40 thanks to the bounty.
 
-[Already a paid subscriber? **Sign in**](https://substack.com/sign-in?redirect=%2Fp%2Fpay-for-results-not-failures&for_pub=lydianottingham&change_user=false)
-
+For now, I recommend doing these 'rewarding help' bounties over 'negative reinforcement' ones. If I change my mind, I'll update this.
 
 ---
 
