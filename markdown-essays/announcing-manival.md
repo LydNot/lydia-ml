@@ -1,0 +1,57 @@
+---
+title: "Announcing Manival"
+date: "June 18, 2025"
+category: "ai & machine learning"
+source: "https://manifund.substack.com/p/announcing-manival"
+preview_image: ""
+---
+
+# Announcing Manival
+
+### An LLM-powered grant evaluator
+
+_Status: Something we've hacked on for a couple of weeks; looking to get feedback and iterate!_
+
+Last time, I wrote about some considerations for AI safety grant evaluation, but didn't actually ship a cost-effectiveness model. Since then, Austin, Nishad, and I have:
+
+* Developed Manival, an LLM-powered grant evaluator
+* Demoed it to an audience at Manifest
+* Written and applied our own grantmaking criteria—we'll see if Manival can replicate our taste
+
+### How Manival works
+
+This is effectively a form of structured 'Deep Research'.
+
+First, we specify the fields that matter to us when evaluating a grant. These might include 'domain expertise of project leads' or 'strength of project's theory of change'. We have RAG-based 'data fetchers' (Perplexity Sonar) scour the internet and return a score, with reasoning, for each of these fields. We then feed these into an LLM synthesizer (Claude Opus), which provides an overall evaluation.
+
+This is a pretty janky LLM wrapper compensating for the lack of Deep Research API. We're aware of various RAG and Deep Research alternatives, and expect our evaluations to improve as we plug better models in.
+
+### Customizing the criteria
+
+Different people have different ideas of what should go into a grant evaluation config. Austin cares deeply about how great a team is; I'd like mine to consider counterfactual uses of a team's time.
+
+With Manival, you can apply any grant evaluation criteria of your choosing (go to Configs → AI Generate). Here's one we made just for fun:
+
+### What's next for Manival?
+
+Manival has lots of potential uses. Here are some main ones:
+
+1. **Estimating marginal cost-effectiveness:** We could write a config that estimates how much of a difference marginal $ <x> would make.
+2. **Predicting impact market cap:** Right now, our configs evaluate projects on a scale from 0 to 10. In the real world, project size varies: some established projects seek 6-7 figures like a 'Series A'; others seek 4-5 figures in 'seed' / 'pre-seed' funding. Can we use Scott Alexander's impact valuations to estimate a project's 'impact market cap'?
+3. **Improving project proposals:** Grant applicants can run their project proposal through Manival to understand what might need clarifying.
+4. **Project comparison:** We can use Manival to rank a category on Manifund, funnelling its most underrated projects to the top of your feed.
+5. **Recommendations:** We can use Manival to recommend new projects to grantmakers based on projects they've already supported.
+6. **Solving the 'adverse selection' / 'funging' problems:** Grantmakers can estimate how likely a project might be to get funding elsewhere, or better understand why it hasn't been funded when that's the case.
+
+It might be valuable to simulate how other grantmakers you respect might evaluate a project when deciding whether to make a grant. For example, here's a simulation of Joe Carlsmith's thinking:
+
+These 'simulated scores' might differ from how a grantmaker actually thinks. Accordingly, we plan to develop configs that are maximally faithful to our own thinking over the next week.
+
+For now, I expect a lot of Manival's value to come from 'flagging potentially great projects to look into', rather than being something people defer to.
+
+We're excited for you to try Manival, and eager to know what you think, especially if you're a donor, grantmaker, or someone else who cares a lot about evaluating grant proposals. Schedule a call with us to chat this through, or let us know in the comments!
+
+---
+
+*Originally published on [The Fox Says](https://manifund.substack.com/p/announcing-manival)*
+
