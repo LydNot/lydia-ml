@@ -1,7 +1,7 @@
 ---
 title: "Field Notes from EAG NYC"
 date: "October 14, 2025"
-category: "writing"
+category: "artificial intelligence"
 source: "https://lydianottingham.substack.com/p/field-notes-from-eag-nyc"
 preview_image: "https://substackcdn.com/image/fetch/$s_!BSPQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5426cb4-01fa-4c6a-8327-b77317259920_1024x1024.png"
 ---

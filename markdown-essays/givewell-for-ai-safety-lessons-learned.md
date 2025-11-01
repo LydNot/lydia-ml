@@ -1,7 +1,7 @@
 ---
 title: "'GiveWell for AI Safety': Lessons learned in a week"
 date: "May 30, 2025"
-category: "ai & machine learning"
+category: "artificial intelligence"
 source: "https://manifund.substack.com/p/givewell-for-ai-safety-lessons-learned"
 preview_image: ""
 ---

@@ -1,7 +1,7 @@
 ---
 title: "(Not) Buying a Chinese AgiBot"
 date: "June 01, 2025"
-category: "technology & society"
+category: "artificial intelligence"
 source: "https://lydianottingham.substack.com/p/not-buying-a-chinese-agibot"
 preview_image: "https://substackcdn.com/image/fetch/$s_!1_S_!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53a5b1ac-2608-426a-b4f2-9d6e26c3be24_1376x942.png"
 ---

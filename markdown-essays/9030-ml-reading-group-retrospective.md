@@ -1,7 +1,7 @@
 ---
 title: "90/30 ML Reading Group: Retrospective"
 date: "June 24, 2025"
-category: "technology & society"
+category: "machine learning"
 source: "https://lydianottingham.substack.com/p/9030-ml-reading-group-retrospective"
 preview_image: "https://substackcdn.com/image/fetch/$s_!HQAu!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a9b800b-794e-4ebe-8cba-12143c3deade_694x624.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Announcing Manival"
 date: "June 18, 2025"
-category: "ai & machine learning"
+category: "artificial intelligence"
 source: "https://manifund.substack.com/p/announcing-manival"
 preview_image: ""
 ---

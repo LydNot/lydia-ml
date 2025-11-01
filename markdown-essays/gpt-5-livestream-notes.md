@@ -1,7 +1,7 @@
 ---
 title: "GPT-5 Livestream Notes"
 date: "August 08, 2025"
-category: "technology & society"
+category: "artificial intelligence"
 source: "https://lydianottingham.substack.com/p/gpt-5-livestream-notes"
 preview_image: "https://substackcdn.com/image/fetch/$s_!IE8g!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04cdcfcb-cbff-4581-9ac9-303582247c45_2727x1426.png"
 ---
